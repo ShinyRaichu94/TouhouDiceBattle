@@ -1,0 +1,25 @@
+{
+  "$GMPath":"",
+  "%Name":"Path_FoM_Path2Ca",
+  "closed":false,
+  "kind":0,
+  "name":"Path_FoM_Path2Ca",
+  "parent":{
+    "name":"Paths",
+    "path":"folders/Paths.yy",
+  },
+  "points":[
+    {"speed":100.0,"x":480.0,"y":1088.0,},
+    {"speed":100.0,"x":384.0,"y":992.0,},
+    {"speed":100.0,"x":384.0,"y":864.0,},
+    {"speed":100.0,"x":448.0,"y":736.0,},
+    {"speed":100.0,"x":544.0,"y":640.0,},
+    {"speed":100.0,"x":672.0,"y":608.0,},
+    {"speed":100.0,"x":800.0,"y":640.0,},
+    {"speed":100.0,"x":896.0,"y":736.0,},
+    {"speed":100.0,"x":960.0,"y":864.0,},
+  ],
+  "precision":4,
+  "resourceType":"GMPath",
+  "resourceVersion":"2.0",
+}
