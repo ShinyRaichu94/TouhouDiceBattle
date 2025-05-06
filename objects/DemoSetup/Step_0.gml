@@ -69,3 +69,59 @@ var l2FD6CD76_0;l2FD6CD76_0 = keyboard_check_pressed(ord("X"));if (l2FD6CD76_0
 	/// @DnDArgument : "room" "Room_BM_YuukuriSpeechJump"
 	/// @DnDSaveInfo : "room" "Room_BM_YuukuriSpeechJump"
 	room_goto(Room_BM_YuukuriSpeechJump);}
+
+/// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Pressed
+/// @DnDVersion : 1
+/// @DnDHash : 2DA192BB
+/// @DnDArgument : "key" "ord("C")"
+var l2DA192BB_0;l2DA192BB_0 = keyboard_check_pressed(ord("C"));if (l2DA192BB_0){	/// @DnDAction : YoYo Games.Rooms.Go_To_Room
+	/// @DnDVersion : 1
+	/// @DnDHash : 7F0FA61D
+	/// @DnDParent : 2DA192BB
+	/// @DnDArgument : "room" "Room_4_PachinCoin"
+	/// @DnDSaveInfo : "room" "Room_4_PachinCoin"
+	room_goto(Room_4_PachinCoin);}
+
+/// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Pressed
+/// @DnDVersion : 1
+/// @DnDHash : 0A44B09C
+/// @DnDArgument : "key" "ord("P")"
+var l0A44B09C_0;l0A44B09C_0 = keyboard_check_pressed(ord("P"));if (l0A44B09C_0){	/// @DnDAction : YoYo Games.Rooms.Go_To_Room
+	/// @DnDVersion : 1
+	/// @DnDHash : 0D7D435F
+	/// @DnDParent : 0A44B09C
+	/// @DnDArgument : "room" "Room_4_KeystoneCourage"
+	/// @DnDSaveInfo : "room" "Room_4_KeystoneCourage"
+	room_goto(Room_4_KeystoneCourage);}
+
+/// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Pressed
+/// @DnDVersion : 1
+/// @DnDHash : 78E0A531
+/// @DnDArgument : "key" "ord("O")"
+var l78E0A531_0;l78E0A531_0 = keyboard_check_pressed(ord("O"));if (l78E0A531_0){	/// @DnDAction : YoYo Games.Rooms.Go_To_Room
+	/// @DnDVersion : 1
+	/// @DnDHash : 7854909C
+	/// @DnDParent : 78E0A531
+	/// @DnDArgument : "room" "Room_DM_SnowfortShootOut"
+	/// @DnDSaveInfo : "room" "Room_DM_SnowfortShootOut"
+	room_goto(Room_DM_SnowfortShootOut);}
+
+/// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Pressed
+/// @DnDVersion : 1
+/// @DnDHash : 17A20F16
+/// @DnDArgument : "key" "ord("Q")"
+var l17A20F16_0;l17A20F16_0 = keyboard_check_pressed(ord("Q"));if (l17A20F16_0){	/// @DnDAction : YoYo Games.Common.Set_Global
+	/// @DnDVersion : 1
+	/// @DnDHash : 6A19A8CB
+	/// @DnDParent : 17A20F16
+	/// @DnDArgument : "value" ""Pachin-Coin""
+	/// @DnDArgument : "var" "MinigameSelect"
+	global.MinigameSelect = "Pachin-Coin";
+
+	/// @DnDAction : YoYo Games.Rooms.Go_To_Room
+	/// @DnDVersion : 1
+	/// @DnDHash : 18618A19
+	/// @DnDParent : 17A20F16
+	/// @DnDArgument : "room" "Room_MinigameRules4Player"
+	/// @DnDSaveInfo : "room" "Room_MinigameRules4Player"
+	room_goto(Room_MinigameRules4Player);}

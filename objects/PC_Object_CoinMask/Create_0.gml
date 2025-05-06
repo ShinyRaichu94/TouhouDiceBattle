@@ -14,6 +14,6 @@ gravity += 0.25;
 /// @DnDAction : YoYo Games.Instances.Set_Alarm
 /// @DnDVersion : 1
 /// @DnDHash : 48A6DCE8
-/// @DnDArgument : "steps" "90"
+/// @DnDArgument : "steps" "10"
 /// @DnDArgument : "alarm" "1"
-alarm_set(1, 90);
+alarm_set(1, 10);

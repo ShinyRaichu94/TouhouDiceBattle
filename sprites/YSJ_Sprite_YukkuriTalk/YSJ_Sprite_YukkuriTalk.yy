@@ -32,7 +32,7 @@
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
-    "$GMSequence":"",
+    "$GMSequence":"v1",
     "%Name":"YSJ_Sprite_YukkuriTalk",
     "autoRecord":true,
     "backdropHeight":768,
@@ -63,6 +63,8 @@
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",
+    "seqHeight":439.0,
+    "seqWidth":413.0,
     "showBackdrop":true,
     "showBackdropImage":false,
     "timeUnits":1,

@@ -1,14 +1,14 @@
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 5CFDA0BA
-/// @DnDArgument : "code" "global.PlayerA_Character = "Reimu";$(13_10)$(13_10)global.PlayerB_Character = "Sanae";$(13_10)$(13_10)global.PlayerC_Character = "Wriggle";$(13_10)$(13_10)global.PlayerD_Character = "Tsukasa";$(13_10)$(13_10)global.Player1 = "A";$(13_10)$(13_10)global.Player2 = "B";$(13_10)$(13_10)global.Player3 = "C";$(13_10)$(13_10)global.Player4 = "D";$(13_10)$(13_10)global.PlayerA_Control = true;$(13_10)$(13_10)global.PlayerB_Control = false;$(13_10)$(13_10)global.PlayerC_Control = false;$(13_10)$(13_10)global.PlayerD_Control = false;$(13_10)$(13_10)global.SeijaEvent_FlippedMinigame = false;$(13_10)$(13_10)global.PlayerTurn = 1;"
-global.PlayerA_Character = "Reimu";
+/// @DnDArgument : "code" "global.PlayerA_Character = "Nitori";$(13_10)$(13_10)global.PlayerB_Character = "Wriggle";$(13_10)$(13_10)global.PlayerC_Character = "Suika";$(13_10)$(13_10)global.PlayerD_Character = "Koishi";$(13_10)$(13_10)global.Player1 = "A";$(13_10)$(13_10)global.Player2 = "B";$(13_10)$(13_10)global.Player3 = "C";$(13_10)$(13_10)global.Player4 = "D";$(13_10)$(13_10)global.PlayerA_Control = true;$(13_10)$(13_10)global.PlayerB_Control = false;$(13_10)$(13_10)global.PlayerC_Control = false;$(13_10)$(13_10)global.PlayerD_Control = false;$(13_10)$(13_10)global.PlayerA_Controller = "Keys";$(13_10)$(13_10)global.PlayerB_Controller = "Null";$(13_10)$(13_10)global.PlayerC_Controller = "Null";$(13_10)$(13_10)global.PlayerD_Controller = "Null";$(13_10)$(13_10)global.PlayerA_CPULevel = "Easy";$(13_10)$(13_10)global.PlayerB_CPULevel = "Easy";$(13_10)$(13_10)global.PlayerC_CPULevel = "Easy";$(13_10)$(13_10)global.PlayerD_CPULevel = "Easy";$(13_10)$(13_10)global.SeijaEvent_FlippedMinigame = false;$(13_10)$(13_10)global.PlayerTurn = 1;$(13_10)$(13_10)global.DuelPlayer1 = "Player1";$(13_10)$(13_10)global.DuelPlayer2 = "Player2";$(13_10)$(13_10)global.Player1MinigameWin = false;$(13_10)global.Player2MinigameWin = false;$(13_10)global.Player3MinigameWin = false;$(13_10)global.Player4MinigameWin = false;$(13_10)global.DuelPlayer1MinigameWin = false;$(13_10)global.DuelPlayer2MinigameWin = false;$(13_10)"
+global.PlayerA_Character = "Nitori";
 
-global.PlayerB_Character = "Sanae";
+global.PlayerB_Character = "Wriggle";
 
-global.PlayerC_Character = "Wriggle";
+global.PlayerC_Character = "Suika";
 
-global.PlayerD_Character = "Tsukasa";
+global.PlayerD_Character = "Koishi";
 
 global.Player1 = "A";
 
@@ -26,9 +26,36 @@ global.PlayerC_Control = false;
 
 global.PlayerD_Control = false;
 
+global.PlayerA_Controller = "Keys";
+
+global.PlayerB_Controller = "Null";
+
+global.PlayerC_Controller = "Null";
+
+global.PlayerD_Controller = "Null";
+
+global.PlayerA_CPULevel = "Easy";
+
+global.PlayerB_CPULevel = "Easy";
+
+global.PlayerC_CPULevel = "Easy";
+
+global.PlayerD_CPULevel = "Easy";
+
 global.SeijaEvent_FlippedMinigame = false;
 
 global.PlayerTurn = 1;
+
+global.DuelPlayer1 = "Player1";
+
+global.DuelPlayer2 = "Player2";
+
+global.Player1MinigameWin = false;
+global.Player2MinigameWin = false;
+global.Player3MinigameWin = false;
+global.Player4MinigameWin = false;
+global.DuelPlayer1MinigameWin = false;
+global.DuelPlayer2MinigameWin = false;
 
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1

@@ -18,6 +18,12 @@ global.MinigameIntro = true;
 /// @DnDArgument : "var" "MinigameEnd"
 global.MinigameEnd = false;
 
+/// @DnDAction : YoYo Games.Common.Set_Global
+/// @DnDVersion : 1
+/// @DnDHash : 77774E64
+/// @DnDArgument : "var" "AC_ThrowTiming"
+global.AC_ThrowTiming = 0;
+
 /// @DnDAction : YoYo Games.Instances.Set_Alarm
 /// @DnDVersion : 1
 /// @DnDHash : 5359AE77

@@ -1,3 +1,10 @@
+/// @DnDAction : YoYo Games.Common.Set_Global
+/// @DnDVersion : 1
+/// @DnDHash : 3095919A
+/// @DnDArgument : "value" "false"
+/// @DnDArgument : "var" "DemoSetup"
+global.DemoSetup = false;
+
 /// @DnDAction : YoYo Games.Drawing.Set_Alpha
 /// @DnDVersion : 1
 /// @DnDHash : 2EC5E7BE

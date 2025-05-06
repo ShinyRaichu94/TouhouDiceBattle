@@ -4,3 +4,11 @@
 /// @DnDArgument : "value" "false"
 /// @DnDArgument : "var" "MinigameIntro"
 global.MinigameIntro = false;
+
+/// @DnDAction : YoYo Games.Instances.Create_Instance
+/// @DnDVersion : 1
+/// @DnDHash : 1C0D6B3F
+/// @DnDArgument : "objectid" "AC_Object_Controller"
+/// @DnDArgument : "layer" ""HUD""
+/// @DnDSaveInfo : "objectid" "AC_Object_Controller"
+instance_create_layer(0, 0, "HUD", AC_Object_Controller);

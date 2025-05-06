@@ -1,16 +1,16 @@
-/// @DnDAction : YoYo Games.Common.Temp_Variable
+/// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1
-/// @DnDHash : 15B1DEC3
+/// @DnDHash : 10E9E3EB
 /// @DnDInput : 4
-/// @DnDArgument : "var" "global.PlayerA_Control"
 /// @DnDArgument : "value" "false"
-/// @DnDArgument : "var_1" "global.PlayerB_Control"
 /// @DnDArgument : "value_1" "false"
-/// @DnDArgument : "var_2" "global.PlayerC_Control"
 /// @DnDArgument : "value_2" "false"
-/// @DnDArgument : "var_3" "global.PlayerD_Control"
 /// @DnDArgument : "value_3" "false"
-var global.PlayerA_Control = false;
-var global.PlayerB_Control = false;
-var global.PlayerC_Control = false;
-var global.PlayerD_Control = false;
+/// @DnDArgument : "var" "PlayerA_Control"
+/// @DnDArgument : "var_1" "PlayerB_Control"
+/// @DnDArgument : "var_2" "PlayerC_Control"
+/// @DnDArgument : "var_3" "PlayerD_Control"
+global.PlayerA_Control = false;
+global.PlayerB_Control = false;
+global.PlayerC_Control = false;
+global.PlayerD_Control = false;

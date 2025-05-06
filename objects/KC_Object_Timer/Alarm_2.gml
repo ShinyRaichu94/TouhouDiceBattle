@@ -1,0 +1,1 @@
+instance_create_layer(683, 5376 + 384, "HUD", Object_Start);

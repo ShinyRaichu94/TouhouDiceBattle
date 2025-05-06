@@ -12,6 +12,7 @@
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"PC_Object_Wall","path":"objects/PC_Object_Wall/PC_Object_Wall.yy",},"eventNum":0,"eventType":4,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"PC_Object_LeftRamp","path":"objects/PC_Object_LeftRamp/PC_Object_LeftRamp.yy",},"eventNum":0,"eventType":4,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"PC_Object_RightRamp","path":"objects/PC_Object_RightRamp/PC_Object_RightRamp.yy",},"eventNum":0,"eventType":4,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":7,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"PC_Object_CoinMask",

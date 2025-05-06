@@ -5,6 +5,14 @@
 /// @DnDArgument : "var" "MinigameIntro"
 global.MinigameIntro = false;
 
+/// @DnDAction : YoYo Games.Instances.Create_Instance
+/// @DnDVersion : 1
+/// @DnDHash : 0C40EE97
+/// @DnDArgument : "objectid" "PC_Object_Controller"
+/// @DnDArgument : "layer" ""HUD""
+/// @DnDSaveInfo : "objectid" "PC_Object_Controller"
+instance_create_layer(0, 0, "HUD", PC_Object_Controller);
+
 /// @DnDAction : YoYo Games.Instances.Set_Alarm
 /// @DnDVersion : 1
 /// @DnDHash : 3A4FF953
