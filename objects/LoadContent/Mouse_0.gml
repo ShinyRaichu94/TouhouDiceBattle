@@ -1,0 +1,1 @@
+var l7E173CEA_0;l7E173CEA_0 = keyboard_check_pressed(vk_space);if (l7E173CEA_0){}

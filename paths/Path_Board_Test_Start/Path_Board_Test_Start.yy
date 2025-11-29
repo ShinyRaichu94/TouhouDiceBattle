@@ -1,0 +1,18 @@
+{
+  "$GMPath":"",
+  "%Name":"Path_Board_Test_Start",
+  "closed":false,
+  "kind":0,
+  "name":"Path_Board_Test_Start",
+  "parent":{
+    "name":"Paths",
+    "path":"folders/Paths.yy",
+  },
+  "points":[
+    {"speed":100.0,"x":1792.0,"y":1696.0,},
+    {"speed":100.0,"x":1664.0,"y":1696.0,},
+  ],
+  "precision":4,
+  "resourceType":"GMPath",
+  "resourceVersion":"2.0",
+}

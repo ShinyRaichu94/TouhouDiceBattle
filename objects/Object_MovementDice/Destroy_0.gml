@@ -1,0 +1,1 @@
+global.MovementDiceChooseFinal += variableself_poweritemaddvariable;
