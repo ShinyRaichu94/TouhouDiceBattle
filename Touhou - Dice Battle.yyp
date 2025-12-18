@@ -28,6 +28,7 @@
     {"$GMFolder":"","%Name":"Yukkuri Speech Jump","folderPath":"folders/Objects/BattleMinigamesObjects/Yukkuri Speech Jump.yy","name":"Yukkuri Speech Jump","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Zoomin' Broom","folderPath":"folders/Objects/BattleMinigamesObjects/Zoomin' Broom.yy","name":"Zoomin' Broom","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Boards","folderPath":"folders/Objects/Boards.yy","name":"Boards","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Direction Choice","folderPath":"folders/Objects/Boards/Direction Choice.yy","name":"Direction Choice","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Forest of Magic","folderPath":"folders/Objects/Boards/Forest of Magic.yy","name":"Forest of Magic","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Danmaku","folderPath":"folders/Objects/Danmaku.yy","name":"Danmaku","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Dice","folderPath":"folders/Objects/Dice.yy","name":"Dice","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -108,7 +109,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.1.210",
+    "IDEVersion":"2024.14.2.212",
   },
   "name":"Touhou - Dice Battle",
   "resources":[
@@ -147,6 +148,7 @@
     {"id":{"name":"CF_Object_Wall","path":"objects/CF_Object_Wall/CF_Object_Wall.yy",},},
     {"id":{"name":"DemoSetup","path":"objects/DemoSetup/DemoSetup.yy",},},
     {"id":{"name":"DiceIntro","path":"objects/DiceIntro/DiceIntro.yy",},},
+    {"id":{"name":"DirectionChoice_FoM_1","path":"objects/DirectionChoice_FoM_1/DirectionChoice_FoM_1.yy",},},
     {"id":{"name":"Disclaimer","path":"objects/Disclaimer/Disclaimer.yy",},},
     {"id":{"name":"DisclaimerAccept","path":"objects/DisclaimerAccept/DisclaimerAccept.yy",},},
     {"id":{"name":"KC_Object_Controller","path":"objects/KC_Object_Controller/KC_Object_Controller.yy",},},
@@ -383,6 +385,8 @@
     {"id":{"name":"YSJ_Object_Yukkuri","path":"objects/YSJ_Object_Yukkuri/YSJ_Object_Yukkuri.yy",},},
     {"id":{"name":"YSJ_Object_YukkuriStopper","path":"objects/YSJ_Object_YukkuriStopper/YSJ_Object_YukkuriStopper.yy",},},
     {"id":{"name":"Path_Board_FoM_1","path":"paths/Path_Board_FoM_1/Path_Board_FoM_1.yy",},},
+    {"id":{"name":"Path_Board_FoM_2a","path":"paths/Path_Board_FoM_2a/Path_Board_FoM_2a.yy",},},
+    {"id":{"name":"Path_Board_FoM_2b","path":"paths/Path_Board_FoM_2b/Path_Board_FoM_2b.yy",},},
     {"id":{"name":"Path_Board_FoM_Start","path":"paths/Path_Board_FoM_Start/Path_Board_FoM_Start.yy",},},
     {"id":{"name":"Path_Board_Test_1","path":"paths/Path_Board_Test_1/Path_Board_Test_1.yy",},},
     {"id":{"name":"Path_Board_Test_2","path":"paths/Path_Board_Test_2/Path_Board_Test_2.yy",},},

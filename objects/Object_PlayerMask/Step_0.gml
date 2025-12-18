@@ -95,5 +95,10 @@ if (PlayerNumber == global.PlayerTurn) {
 			path_start(Path_Board_FoM_1, path_speed, path_action_stop, true);
 			path_position = 0;
 		}
+		else if(PathVariable == Path_Board_FoM_1 && path_position >= 1) {
+			if !(instance_exists(DirectionChoice_FoM_1)){
+				instance_create_layer(x, y, "Instances_1", DirectionChoice_FoM_1);
+			}
+		}
 	}
 }
