@@ -1,26 +1,26 @@
 if (PlayerNumber == global.PlayerTurn) {
 	if(global.Board_PlayerMoving == true) {
-		if (place_meeting(x, y, SpaceBase) && global.Board_PlayerSpaceStep == false){
+		if ((distance_to_object(instance_nearest(x,y,SpaceBase)) <= 1)/*place_meeting((x || x-1 || x+1), (y || y-1 || y+1), SpaceBase)*/ && global.Board_PlayerSpaceStep == false){
 			global.MovementDiceChooseFinal -= 1;
 			if (global.MovementDiceChooseFinal == 0) {
 				if (global.PlayerTurn == 1){
-					if (place_meeting(x, y, [Object_PlusSpace, Object_PlusSpace_GoldenYinYang, Object_CardSpace, Object_HealSpace])) {global.Player1Color = "Blue";}
-					else if (place_meeting(x, y, [Object_MinusSpace, Object_BattleSpace, Object_SeijaSpace])) {global.Player1Color = "Red";}
+					if (distance_to_object(instance_nearest(x,y,Object_PlusSpace)) <= 1 || distance_to_object(instance_nearest(x,y,Object_PlusSpace_GoldenYinYang)) <= 1 || distance_to_object(instance_nearest(x,y,Object_CardSpace)) <= 1 || distance_to_object(instance_nearest(x,y,Object_HealSpace)) <= 1) {global.Player1Color = "Blue";}
+					else if (distance_to_object(instance_nearest(x,y,Object_MinusSpace)) <= 1 || distance_to_object(instance_nearest(x,y,Object_BattleSpace)) <= 1 || distance_to_object(instance_nearest(x,y,Object_SeijaSpace)) <= 1) {global.Player1Color = "Red";}
 					else {global.Player1Color = "Purple";}
 				}
 				else if (global.PlayerTurn == 2){
-					if (place_meeting(x, y, [Object_PlusSpace, Object_PlusSpace_GoldenYinYang, Object_CardSpace, Object_HealSpace])) {global.Player2Color = "Blue";}
-					else if (place_meeting(x, y, [Object_MinusSpace, Object_BattleSpace, Object_SeijaSpace])) {global.Player2Color = "Red";}
+					if (distance_to_object(instance_nearest(x,y,Object_PlusSpace)) <= 1 || distance_to_object(instance_nearest(x,y,Object_PlusSpace_GoldenYinYang)) <= 1 || distance_to_object(instance_nearest(x,y,Object_CardSpace)) <= 1 || distance_to_object(instance_nearest(x,y,Object_HealSpace)) <= 1) {global.Player2Color = "Blue";}
+					else if (distance_to_object(instance_nearest(x,y,Object_MinusSpace)) <= 1 || distance_to_object(instance_nearest(x,y,Object_BattleSpace)) <= 1 || distance_to_object(instance_nearest(x,y,Object_SeijaSpace)) <= 1) {global.Player2Color = "Red";}
 					else {global.Player2Color = "Purple";}
 				}
 				else if (global.PlayerTurn == 3){
-					if (place_meeting(x, y, [Object_PlusSpace, Object_PlusSpace_GoldenYinYang, Object_CardSpace, Object_HealSpace])) {global.Player3Color = "Blue";}
-					else if (place_meeting(x, y, [Object_MinusSpace, Object_BattleSpace, Object_SeijaSpace])) {global.Player3Color = "Red";}
+					if (distance_to_object(instance_nearest(x,y,Object_PlusSpace)) <= 1 || distance_to_object(instance_nearest(x,y,Object_PlusSpace_GoldenYinYang)) <= 1 || distance_to_object(instance_nearest(x,y,Object_CardSpace)) <= 1 || distance_to_object(instance_nearest(x,y,Object_HealSpace)) <= 1) {global.Player3Color = "Blue";}
+					else if (distance_to_object(instance_nearest(x,y,Object_MinusSpace)) <= 1 || distance_to_object(instance_nearest(x,y,Object_BattleSpace)) <= 1 || distance_to_object(instance_nearest(x,y,Object_SeijaSpace)) <= 1) {global.Player3Color = "Red";}
 					else {global.Player3Color = "Purple";}
 				}
 				else if (global.PlayerTurn == 4){
-					if (place_meeting(x, y, [Object_PlusSpace, Object_PlusSpace_GoldenYinYang, Object_CardSpace, Object_HealSpace])) {global.Player4Color = "Blue";}
-					else if (place_meeting(x, y, [Object_MinusSpace, Object_BattleSpace, Object_SeijaSpace])) {global.Player4Color = "Red";}
+					if (distance_to_object(instance_nearest(x,y,Object_PlusSpace)) <= 1 || distance_to_object(instance_nearest(x,y,Object_PlusSpace_GoldenYinYang)) <= 1 || distance_to_object(instance_nearest(x,y,Object_CardSpace)) <= 1 || distance_to_object(instance_nearest(x,y,Object_HealSpace)) <= 1) {global.Player4Color = "Blue";}
+					else if (distance_to_object(instance_nearest(x,y,Object_MinusSpace)) <= 1 || distance_to_object(instance_nearest(x,y,Object_BattleSpace)) <= 1 || distance_to_object(instance_nearest(x,y,Object_SeijaSpace)) <= 1) {global.Player4Color = "Red";}
 					else {global.Player4Color = "Purple";}
 				}
 				path_speed = 0;

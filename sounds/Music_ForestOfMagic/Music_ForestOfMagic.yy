@@ -1,6 +1,6 @@
 {
   "$GMSound":"v2",
-  "%Name":"YukkuriReimu_TakeItEasy",
+  "%Name":"Music_ForestOfMagic",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -10,17 +10,17 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":1.4164172,
+  "duration":154.28572,
   "exportDir":"",
-  "name":"YukkuriReimu_TakeItEasy",
+  "name":"Music_ForestOfMagic",
   "parent":{
-    "name":"Others",
-    "path":"folders/Sounds/Voice/Others.yy",
+    "name":"Music",
+    "path":"folders/Sounds/Music.yy",
   },
   "preload":false,
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"YukkuriReimu_TakeItEasy.wav",
+  "soundFile":"Music_ForestOfMagic.ogg",
   "volume":1.0,
 }

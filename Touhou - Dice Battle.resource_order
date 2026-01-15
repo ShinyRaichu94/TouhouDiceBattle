@@ -213,6 +213,7 @@
     {"name":"Object_CharacterSelect_Wriggle","order":36,"path":"objects/Object_CharacterSelect_Wriggle/Object_CharacterSelect_Wriggle.yy",},
     {"name":"Object_CharacterSelect_Youmu","order":34,"path":"objects/Object_CharacterSelect_Youmu/Object_CharacterSelect_Youmu.yy",},
     {"name":"Object_CoinMinigameWin","order":80,"path":"objects/Object_CoinMinigameWin/Object_CoinMinigameWin.yy",},
+    {"name":"Object_Credits","order":96,"path":"objects/Object_Credits/Object_Credits.yy",},
     {"name":"Object_Danmaku_Kedama","order":1,"path":"objects/Object_Danmaku_Kedama/Object_Danmaku_Kedama.yy",},
     {"name":"Object_DemoMinigameSelect_1","order":77,"path":"objects/Object_DemoMinigameSelect_1/Object_DemoMinigameSelect_1.yy",},
     {"name":"Object_DemoMinigameSelect_2","order":78,"path":"objects/Object_DemoMinigameSelect_2/Object_DemoMinigameSelect_2.yy",},

@@ -109,7 +109,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.2.212",
+    "IDEVersion":"2024.14.2.213",
   },
   "name":"Touhou - Dice Battle",
   "resources":[
@@ -250,6 +250,7 @@
     {"id":{"name":"Object_CharacterSelect_Wriggle","path":"objects/Object_CharacterSelect_Wriggle/Object_CharacterSelect_Wriggle.yy",},},
     {"id":{"name":"Object_CharacterSelect_Youmu","path":"objects/Object_CharacterSelect_Youmu/Object_CharacterSelect_Youmu.yy",},},
     {"id":{"name":"Object_CoinMinigameWin","path":"objects/Object_CoinMinigameWin/Object_CoinMinigameWin.yy",},},
+    {"id":{"name":"Object_Credits","path":"objects/Object_Credits/Object_Credits.yy",},},
     {"id":{"name":"Object_Danmaku_Kedama","path":"objects/Object_Danmaku_Kedama/Object_Danmaku_Kedama.yy",},},
     {"id":{"name":"Object_Danmaku_Player","path":"objects/Object_Danmaku_Player/Object_Danmaku_Player.yy",},},
     {"id":{"name":"Object_DemoMinigameSelect_1","path":"objects/Object_DemoMinigameSelect_1/Object_DemoMinigameSelect_1.yy",},},
@@ -429,6 +430,7 @@
     {"id":{"name":"Room_Options","path":"rooms/Room_Options/Room_Options.yy",},},
     {"id":{"name":"Room_Title_Demo","path":"rooms/Room_Title_Demo/Room_Title_Demo.yy",},},
     {"id":{"name":"Room_Title","path":"rooms/Room_Title/Room_Title.yy",},},
+    {"id":{"name":"Music_ForestOfMagic","path":"sounds/Music_ForestOfMagic/Music_ForestOfMagic.yy",},},
     {"id":{"name":"YukkuriReimu_TakeItEasy","path":"sounds/YukkuriReimu_TakeItEasy/YukkuriReimu_TakeItEasy.yy",},},
     {"id":{"name":"YukkuriReimu_Yu","path":"sounds/YukkuriReimu_Yu/YukkuriReimu_Yu.yy",},},
     {"id":{"name":"YukkuriReimu_Yukkuri","path":"sounds/YukkuriReimu_Yukkuri/YukkuriReimu_Yukkuri.yy",},},
