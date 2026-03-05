@@ -120,10 +120,10 @@ if(PlayerControl == true){
 		}
 
 		if (PlayerGamepadV >= 0.5){
-			DirectionSelect = 1;
+			DirectionSelect = 1; // South West
 		}
 		else if (PlayerGamepadV <= -0.5){
-			DirectionSelect = 0;
+			DirectionSelect = 0; // North West
 		}
 
 		if gamepad_is_connected(GamepadID) && gamepad_button_check_pressed(GamepadID, gp_face1){

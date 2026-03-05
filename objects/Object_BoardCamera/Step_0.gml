@@ -68,6 +68,68 @@ else if (global.RoomCheck == "Room_Board_Forest_of_Magic" && instance_exists(Obj
 		y = Object_FoM_BoardIntro.y;
 	}
 }
+else if (global.RoomCheck == "Room_Board_Forest_of_Magic" && instance_exists(Object_GoldenYinYangEvent)){
+	if (Object_GoldenYinYangEvent.GoldenYinYangLocation == true){
+		if (global.GoldenYinYangSpaceActivate == "A"){
+			global.BoardFoM_GoldenYinYangSpaceChoose = global.BoardFoM_GoldenYinYangSpace_A;
+		}
+		else if (global.GoldenYinYangSpaceActivate == "B"){
+			global.BoardFoM_GoldenYinYangSpaceChoose = global.BoardFoM_GoldenYinYangSpace_B;
+		}
+		else if (global.GoldenYinYangSpaceActivate == "C"){
+			global.BoardFoM_GoldenYinYangSpaceChoose = global.BoardFoM_GoldenYinYangSpace_C;
+		}
+		else if (global.GoldenYinYangSpaceActivate == "D"){
+			global.BoardFoM_GoldenYinYangSpaceChoose = global.BoardFoM_GoldenYinYangSpace_D;
+		}
+		else if (global.GoldenYinYangSpaceActivate == "E"){
+			global.BoardFoM_GoldenYinYangSpaceChoose = global.BoardFoM_GoldenYinYangSpace_E;
+		}
+		else if (global.GoldenYinYangSpaceActivate == "F"){
+			global.BoardFoM_GoldenYinYangSpaceChoose = global.BoardFoM_GoldenYinYangSpace_F;
+		}
+		
+		if (global.BoardFoM_GoldenYinYangSpaceChoose == 1){
+			var GoldenYinYangPointX = 736;
+			var GoldenYinYangPointY = 2464;
+		}
+		else if (global.BoardFoM_GoldenYinYangSpaceChoose == 2){
+			var GoldenYinYangPointX = 1376;
+			var GoldenYinYangPointY = 736;
+		}
+		else if (global.BoardFoM_GoldenYinYangSpaceChoose == 3){
+			var GoldenYinYangPointX = 3200;
+			var GoldenYinYangPointY = 1024;
+		}
+		else if (global.BoardFoM_GoldenYinYangSpaceChoose == 4){
+			var GoldenYinYangPointX = 2624;
+			var GoldenYinYangPointY = 2784;
+		}
+		else if (global.BoardFoM_GoldenYinYangSpaceChoose == 5){
+			var GoldenYinYangPointX = 1600;
+			var GoldenYinYangPointY = 2112;
+		}
+		else if (global.BoardFoM_GoldenYinYangSpaceChoose == 6){
+			var GoldenYinYangPointX = 2400;
+			var GoldenYinYangPointY = 1344;
+		}
+		direction = point_direction(x, y, GoldenYinYangPointX, GoldenYinYangPointY);
+		dist = point_distance(x, y, GoldenYinYangPointX, GoldenYinYangPointY);
+		
+		if(dist != 0){
+			var speedset = dist / 5
+			if speedset > 5{
+				speed = 5;
+			}
+			else{
+				speed = speedset;
+			}
+		}
+		else{
+			speed = 0;
+		}
+	}
+}
 
 else {
 	if (global.CameraControl == true) {

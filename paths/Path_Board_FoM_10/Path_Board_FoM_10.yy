@@ -1,0 +1,21 @@
+{
+  "$GMPath":"",
+  "%Name":"Path_Board_FoM_10",
+  "closed":false,
+  "kind":0,
+  "name":"Path_Board_FoM_10",
+  "parent":{
+    "name":"Paths",
+    "path":"folders/Paths.yy",
+  },
+  "points":[
+    {"speed":100.0,"x":2944.0,"y":1760.0,},
+    {"speed":100.0,"x":2944.0,"y":1888.0,},
+    {"speed":100.0,"x":2912.0,"y":2016.0,},
+    {"speed":100.0,"x":2912.0,"y":2144.0,},
+    {"speed":100.0,"x":2944.0,"y":2272.0,},
+  ],
+  "precision":4,
+  "resourceType":"GMPath",
+  "resourceVersion":"2.0",
+}

@@ -18,7 +18,7 @@ if (PlayerControl == false){
 }
 
 if (CPUChoose == true){
-	if (global.BoardFoM_GoldenYinYangSpaceChoose == 1) || (global.BoardFoM_GoldenYinYangSpaceChoose == 3 && global.MovementDiceChooseFinal == 4){
+	if (global.BoardFoM_GoldenYinYangSpaceChoose == 1) || ((global.BoardFoM_GoldenYinYangSpaceChoose == 3 || global.BoardFoM_GoldenYinYangSpaceChoose == 4) && global.MovementDiceChooseFinal == 4){
 		DirectionSelect = 1;
 	}
 	alarm_set(1,60);
