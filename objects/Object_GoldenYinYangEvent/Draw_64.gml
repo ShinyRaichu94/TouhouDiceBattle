@@ -33,6 +33,12 @@ else if(Message == 1)
 	draw_set_colour($FF000000 & $ffffff);draw_set_alpha(1);
 	
 	draw_text(view_xview + 147, view_yview + 630, string("Would you like to buy a Golden Yin-Yang?") + "");
+	
+	draw_text(view_xview + 160, view_yview + 700, string("I'll take it!") + "");
+	draw_text(view_xview + 160, view_yview + 725, string("No thanks.") + "");
+	
+	if (Choice == 0){draw_sprite(Sprite_MessageSelectCursor, 0, view_xview + 159, view_yview + 710);}
+	else {draw_sprite(Sprite_MessageSelectCursor, 0, view_xview + 159, view_yview + 735);}
 }
 else if(Message == 2 && Choice == 1)
 {

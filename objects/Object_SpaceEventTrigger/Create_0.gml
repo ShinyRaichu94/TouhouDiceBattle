@@ -15,5 +15,6 @@ with(Player) {
 	if (distance_to_object(instance_nearest(x,y,Object_PlusSpace)) <= 1 || distance_to_object(instance_nearest(x,y,Object_PlusSpace_GoldenYinYang)) <= 1){instance_create_layer(x + 0, y + -128, "Instances_1", Object_PlusCoinDice);}
 	else if (distance_to_object(instance_nearest(x,y,Object_MinusSpace)) <= 1){instance_create_layer(x + 0, y + -128, "Instances_1", Object_MinusCoinDice);}
 	else if (distance_to_object(instance_nearest(x,y,Object_SpecialEventSpace)) <= 1){instance_create_layer(x + 0, y + -128, "Instances_1", Object_CharacterEventChoiceTrigger);}
+	else if (distance_to_object(instance_nearest(x,y,Object_BoardEventSpace_FoM_MushroomFungus)) <= 1){instance_create_layer(x + 0, y + -128, "Instances_1", Object_BoardEvent_MushroomFungus);}
 	else {instance_create_layer(x + 0, y + -128, "Instances_1", Object_PlusCoinDice);}
 }

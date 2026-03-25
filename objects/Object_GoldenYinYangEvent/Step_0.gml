@@ -31,33 +31,26 @@ if(PlayerControl == true){
 		((PlayerController == "GP1") && gamepad_is_connected(1) && gamepad_button_check_pressed(1, gp_face1)) ||
 		((PlayerController == "GP2") && gamepad_is_connected(2) && gamepad_button_check_pressed(2, gp_face1)) ||
 		((PlayerController == "GP3") && gamepad_is_connected(3) && gamepad_button_check_pressed(3, gp_face1)))){
-		if (Message == 7 && Object_BoardCamera.speed < 1){
-			Message += 1;
-			alarm_set(0,15);
+		if (Message != 7 && Message != 9){
+			if (Message == 0 && playercoins <= 999){
+				instance_destroy();
+			}
+			else{
+				Message += 1;
+			}
 		}
-		else if (IntroDialog_Message == 9){
-			IntroDialog_Message += 1;
-			IntroDialog_Enable = false;
-			IntroGoldenYinYangLocation = false;
+		else if (Message == 7 && Object_BoardCamera.speed < 1){
+			Message += 1;
+		}
+		else if (Message == 9){
+			Message += 1;
+			GoldenYinYangLocation = false;
 			Object_BoardCamera.speed = 0;
 			Object_BoardCamera.x = Object_FoM_BoardIntro.x;
 			Object_BoardCamera.y = Object_FoM_BoardIntro.y;
-			alarm_set(1,15);
 		}
-		else if (IntroDialog_Message != 7 && IntroDialog_Message != 9){
-			IntroDialog_Message += 1;
-			alarm_set(0,15);
-		}
-		Message += 1;
 	}
 }
-}
-
-if (Message == 3){
-	instance_destroy();
-	with(Object_SpaceEventTrigger) {
-		instance_destroy();
-	}
 }
 
 if ((Message == 3 || Message == 4) && Choice == 0){

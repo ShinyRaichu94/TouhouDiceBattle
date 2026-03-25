@@ -144,5 +144,30 @@ if (PlayerNumber == global.PlayerTurn) {
 			path_start(Path_Board_FoM_6, path_speed, path_action_stop, true);
 			path_position = 0;
 		}
+		else if(PathVariable == Path_Board_FoM_6 && path_position >= 1) {
+			if !(instance_exists(DirectionChoice_FoM_4)){
+				instance_create_layer(x, y, "Instances_1", DirectionChoice_FoM_4);
+			}
+		}
+		else if(PathVariable == Path_Board_FoM_7 && path_position >= 1) {
+			if !(instance_exists(DirectionChoice_FoM_5)){
+				instance_create_layer(x, y, "Instances_1", DirectionChoice_FoM_5);
+			}
+		}
+		else if(PathVariable == Path_Board_FoM_8a && path_position >= 1) {
+			PathVariable = Path_Board_FoM_9;
+			path_start(Path_Board_FoM_9, path_speed, path_action_stop, true);
+			path_position = 0;
+		}
+		else if(PathVariable == Path_Board_FoM_8b && path_position >= 1) {
+			PathVariable = Path_Board_FoM_9;
+			path_start(Path_Board_FoM_9, path_speed, path_action_stop, true);
+			path_position = 0;
+		}
+		else if(PathVariable == Path_Board_FoM_9 && path_position >= 1) {
+			PathVariable = Path_Board_FoM_10;
+			path_start(Path_Board_FoM_10, path_speed, path_action_stop, true);
+			path_position = 0;
+		}
 	}
 }/**/

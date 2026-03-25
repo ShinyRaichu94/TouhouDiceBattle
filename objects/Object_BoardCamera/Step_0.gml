@@ -1,4 +1,14 @@
-if (global.RoomCheck == "Room_Board_Test" && instance_exists(Object_Test_BoardIntro)){
+if instance_exists(Object_BoardEvent_MushroomFungus){
+	if (Object_BoardEvent_MushroomFungus.ScreenEffect == 0){
+		x = 816;
+		y = 1392;
+	}
+	if (Object_BoardEvent_MushroomFungus.ScreenEffect == 1){
+		x = 816;
+		y = 2032;
+	}
+}
+else if (global.RoomCheck == "Room_Board_Test" && instance_exists(Object_Test_BoardIntro)){
 	x = Object_Test_BoardIntro.x;
 	y = Object_Test_BoardIntro.y;
 }
