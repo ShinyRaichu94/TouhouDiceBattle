@@ -109,7 +109,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.3.217",
+    "IDEVersion":"2024.14.4.221",
   },
   "name":"Touhou - Dice Battle",
   "resources":[
@@ -154,6 +154,9 @@
     {"id":{"name":"DirectionChoice_FoM_3","path":"objects/DirectionChoice_FoM_3/DirectionChoice_FoM_3.yy",},},
     {"id":{"name":"DirectionChoice_FoM_4","path":"objects/DirectionChoice_FoM_4/DirectionChoice_FoM_4.yy",},},
     {"id":{"name":"DirectionChoice_FoM_5","path":"objects/DirectionChoice_FoM_5/DirectionChoice_FoM_5.yy",},},
+    {"id":{"name":"DirectionChoice_FoM_6","path":"objects/DirectionChoice_FoM_6/DirectionChoice_FoM_6.yy",},},
+    {"id":{"name":"DirectionChoice_FoM_7","path":"objects/DirectionChoice_FoM_7/DirectionChoice_FoM_7.yy",},},
+    {"id":{"name":"DirectionChoice_FoM_8","path":"objects/DirectionChoice_FoM_8/DirectionChoice_FoM_8.yy",},},
     {"id":{"name":"Disclaimer","path":"objects/Disclaimer/Disclaimer.yy",},},
     {"id":{"name":"DisclaimerAccept","path":"objects/DisclaimerAccept/DisclaimerAccept.yy",},},
     {"id":{"name":"KC_Object_Controller","path":"objects/KC_Object_Controller/KC_Object_Controller.yy",},},

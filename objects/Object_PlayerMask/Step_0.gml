@@ -1,7 +1,9 @@
 if (PlayerNumber == global.PlayerTurn) {
 	if(global.Board_PlayerMoving == true) {
 		if (instance_exists(DirectionChoice_FoM_1) || instance_exists(DirectionChoice_FoM_2) ||
-			instance_exists(DirectionChoice_FoM_3)){
+			instance_exists(DirectionChoice_FoM_3) || instance_exists(DirectionChoice_FoM_4) ||
+			instance_exists(DirectionChoice_FoM_5) || instance_exists(DirectionChoice_FoM_6) ||
+			instance_exists(DirectionChoice_FoM_7) || instance_exists(DirectionChoice_FoM_8)){
 				var PathChoice = true;
 		}
 		else {var PathChoice = false;}
@@ -114,12 +116,7 @@ if (PlayerNumber == global.PlayerTurn) {
 				instance_create_layer(x, y, "Instances_1", DirectionChoice_FoM_1);
 			}
 		}
-		else if(PathVariable == Path_Board_FoM_2a && path_position >= 1) {
-			PathVariable = Path_Board_FoM_3;
-			path_start(Path_Board_FoM_3, path_speed, path_action_stop, true);
-			path_position = 0;
-		}
-		else if(PathVariable == Path_Board_FoM_2b && path_position >= 1) {
+		else if((PathVariable == Path_Board_FoM_2a || PathVariable == Path_Board_FoM_2b) && path_position >= 1) {
 			PathVariable = Path_Board_FoM_3;
 			path_start(Path_Board_FoM_3, path_speed, path_action_stop, true);
 			path_position = 0;
@@ -134,12 +131,7 @@ if (PlayerNumber == global.PlayerTurn) {
 				instance_create_layer(x, y, "Instances_1", DirectionChoice_FoM_3);
 			}
 		}
-		else if(PathVariable == Path_Board_FoM_5a && path_position >= 1) {
-			PathVariable = Path_Board_FoM_6;
-			path_start(Path_Board_FoM_6, path_speed, path_action_stop, true);
-			path_position = 0;
-		}
-		else if(PathVariable == Path_Board_FoM_5b && path_position >= 1) {
+		else if((PathVariable == Path_Board_FoM_5a || PathVariable == Path_Board_FoM_5b) && path_position >= 1) {
 			PathVariable = Path_Board_FoM_6;
 			path_start(Path_Board_FoM_6, path_speed, path_action_stop, true);
 			path_position = 0;
@@ -154,20 +146,50 @@ if (PlayerNumber == global.PlayerTurn) {
 				instance_create_layer(x, y, "Instances_1", DirectionChoice_FoM_5);
 			}
 		}
-		else if(PathVariable == Path_Board_FoM_8a && path_position >= 1) {
+		else if((PathVariable == Path_Board_FoM_8a || PathVariable == Path_Board_FoM_8b) && path_position >= 1) {
 			PathVariable = Path_Board_FoM_9;
 			path_start(Path_Board_FoM_9, path_speed, path_action_stop, true);
 			path_position = 0;
 		}
-		else if(PathVariable == Path_Board_FoM_8b && path_position >= 1) {
-			PathVariable = Path_Board_FoM_9;
-			path_start(Path_Board_FoM_9, path_speed, path_action_stop, true);
-			path_position = 0;
-		}
-		else if(PathVariable == Path_Board_FoM_9 && path_position >= 1) {
+		else if((PathVariable == Path_Board_FoM_9 || PathVariable == Path_Board_FoM_15) && path_position >= 1) {
 			PathVariable = Path_Board_FoM_10;
 			path_start(Path_Board_FoM_10, path_speed, path_action_stop, true);
 			path_position = 0;
+		}
+		else if(PathVariable == Path_Board_FoM_10 && path_position >= 1) {
+			if !(instance_exists(DirectionChoice_FoM_6)){
+				instance_create_layer(x, y, "Instances_1", DirectionChoice_FoM_6);
+			}
+		}
+		else if((PathVariable == Path_Board_FoM_11a || PathVariable == Path_Board_FoM_11b) && path_position >= 1) {
+			PathVariable = Path_Board_FoM_12;
+			path_start(Path_Board_FoM_12, path_speed, path_action_stop, true);
+			path_position = 0;
+		}
+		else if((PathVariable == Path_Board_FoM_12 || PathVariable == Path_Board_FoM_16) && path_position >= 1) {
+			PathVariable = Path_Board_FoM_1;
+			path_start(Path_Board_FoM_1, path_speed, path_action_stop, true);
+			path_position = 0;
+		}
+		else if((PathVariable == Path_Board_FoM_13 || PathVariable == Path_Board_FoM_20) && path_position >= 1) {
+			PathVariable = Path_Board_FoM_17;
+			path_start(Path_Board_FoM_17, path_speed, path_action_stop, true);
+			path_position = 0;
+		}
+		else if((PathVariable == Path_Board_FoM_14 || PathVariable == Path_Board_FoM_17) && path_position >= 1) {
+			PathVariable = Path_Board_FoM_18;
+			path_start(Path_Board_FoM_18, path_speed, path_action_stop, true);
+			path_position = 0;
+		}
+		else if(PathVariable == Path_Board_FoM_18 && path_position >= 1) {
+			if !(instance_exists(DirectionChoice_FoM_7)){
+				instance_create_layer(x, y, "Instances_1", DirectionChoice_FoM_7);
+			}
+		}
+		else if(PathVariable == Path_Board_FoM_19 && path_position >= 1) {
+			if !(instance_exists(DirectionChoice_FoM_8)){
+				instance_create_layer(x, y, "Instances_1", DirectionChoice_FoM_8);
+			}
 		}
 	}
 }/**/
