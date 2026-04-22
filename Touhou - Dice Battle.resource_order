@@ -405,6 +405,8 @@
     {"name":"Room_Options","order":17,"path":"rooms/Room_Options/Room_Options.yy",},
     {"name":"Room_Title_Demo","order":11,"path":"rooms/Room_Title_Demo/Room_Title_Demo.yy",},
     {"name":"Room_Title","order":8,"path":"rooms/Room_Title/Room_Title.yy",},
+    {"name":"Music_MinigameIntense","order":1,"path":"sounds/Music_MinigameIntense/Music_MinigameIntense.yy",},
+    {"name":"Music_MinigameThinking","order":2,"path":"sounds/Music_MinigameThinking/Music_MinigameThinking.yy",},
     {"name":"YukkuriReimu_Yu","order":2,"path":"sounds/YukkuriReimu_Yu/YukkuriReimu_Yu.yy",},
     {"name":"YukkuriReimu_Yukkuri","order":1,"path":"sounds/YukkuriReimu_Yukkuri/YukkuriReimu_Yukkuri.yy",},
     {"name":"AC_Sprite_DestroyBorder","order":3,"path":"sprites/AC_Sprite_DestroyBorder/AC_Sprite_DestroyBorder.yy",},

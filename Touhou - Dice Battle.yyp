@@ -109,7 +109,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.4.221",
+    "IDEVersion":"2024.14.4.222",
   },
   "name":"Touhou - Dice Battle",
   "resources":[
@@ -463,7 +463,10 @@
     {"id":{"name":"Room_Options","path":"rooms/Room_Options/Room_Options.yy",},},
     {"id":{"name":"Room_Title_Demo","path":"rooms/Room_Title_Demo/Room_Title_Demo.yy",},},
     {"id":{"name":"Room_Title","path":"rooms/Room_Title/Room_Title.yy",},},
+    {"id":{"name":"Script_MusicLoopAndVolume","path":"scripts/Script_MusicLoopAndVolume/Script_MusicLoopAndVolume.yy",},},
     {"id":{"name":"Music_ForestOfMagic","path":"sounds/Music_ForestOfMagic/Music_ForestOfMagic.yy",},},
+    {"id":{"name":"Music_MinigameIntense","path":"sounds/Music_MinigameIntense/Music_MinigameIntense.yy",},},
+    {"id":{"name":"Music_MinigameThinking","path":"sounds/Music_MinigameThinking/Music_MinigameThinking.yy",},},
     {"id":{"name":"YukkuriReimu_TakeItEasy","path":"sounds/YukkuriReimu_TakeItEasy/YukkuriReimu_TakeItEasy.yy",},},
     {"id":{"name":"YukkuriReimu_Yu","path":"sounds/YukkuriReimu_Yu/YukkuriReimu_Yu.yy",},},
     {"id":{"name":"YukkuriReimu_Yukkuri","path":"sounds/YukkuriReimu_Yukkuri/YukkuriReimu_Yukkuri.yy",},},

@@ -58,6 +58,22 @@ var l48F2EA1E_0 = file_exists("SoundOptions.json");if(!l48F2EA1E_0){	/// @DnD
 	buffer_save(buf, "SoundOptions.json");
 	buffer_delete(buf);}
 
+/// @DnDAction : YoYo Games.Common.Else
+/// @DnDVersion : 1
+/// @DnDHash : 3AD110D7
+else{	/// @DnDAction : YoYo Games.Common.Execute_Code
+	/// @DnDVersion : 1
+	/// @DnDHash : 62CD2179
+	/// @DnDParent : 3AD110D7
+	/// @DnDArgument : "code" "var buf = buffer_load("SoundOptions.json");$(13_10)var json = buffer_read(buf, buffer_text);$(13_10)global.SavedVolume = json_parse(json);$(13_10)buffer_delete(buf);$(13_10)global.VolumeSound = global.SavedVolume.sound$(13_10)global.VolumeMusic = global.SavedVolume.music$(13_10)global.VolumeVoice = global.SavedVolume.voice"
+	var buf = buffer_load("SoundOptions.json");
+	var json = buffer_read(buf, buffer_text);
+	global.SavedVolume = json_parse(json);
+	buffer_delete(buf);
+	global.VolumeSound = global.SavedVolume.sound
+	global.VolumeMusic = global.SavedVolume.music
+	global.VolumeVoice = global.SavedVolume.voice}
+
 /// @DnDAction : YoYo Games.Files.If_File_Exists
 /// @DnDVersion : 1
 /// @DnDHash : 2B043231
@@ -109,3 +125,18 @@ else{	/// @DnDAction : YoYo Games.Common.Execute_Code
 	/// @DnDParent : 050F1C8F
 	/// @DnDArgument : "code" "global.FasterBoardMovement = global.SavedGameplayOptions.fasterboardmovement;"
 	global.FasterBoardMovement = global.SavedGameplayOptions.fasterboardmovement;}
+
+/// @DnDAction : YoYo Games.Common.Execute_Code
+/// @DnDVersion : 1
+/// @DnDHash : 494BCAD6
+/// @DnDArgument : "code" "if (!audio_is_playing(Music_MinigameThinking)){$(13_10)	BGM_sound = audio_play_sound(Music_MinigameThinking, 0, 1, 1.0, undefined, 1.0);$(13_10)}"
+if (!audio_is_playing(Music_MinigameThinking)){
+	BGM_sound = audio_play_sound(Music_MinigameThinking, 0, 1, 1.0, undefined, 1.0);
+}
+
+/// @DnDAction : YoYo Games.Common.Execute_Script
+/// @DnDVersion : 1.1
+/// @DnDHash : 654E5054
+/// @DnDArgument : "script" "Script_MusicLoopAndVolume"
+/// @DnDSaveInfo : "script" "Script_MusicLoopAndVolume"
+script_execute(Script_MusicLoopAndVolume);
