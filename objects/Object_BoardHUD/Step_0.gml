@@ -26,3 +26,14 @@ global.Player2Place = player2place;
 global.Player3Place = player3place;
 global.Player4Place = player4place;
 
+if(global.PlayerHUDEnable == true){
+	if (global.Player1CurrentHP < 0){global.Player1CurrentHP = 0;}
+	if (global.Player2CurrentHP < 0){global.Player2CurrentHP = 0;}
+	if (global.Player3CurrentHP < 0){global.Player3CurrentHP = 0;}
+	if (global.Player4CurrentHP < 0){global.Player4CurrentHP = 0;}
+
+	if (global.Player1CurrentHP > global.Player1MaxHPStat){global.Player1CurrentHP = global.Player1MaxHPStat;}
+	if (global.Player2CurrentHP > global.Player2MaxHPStat){global.Player2CurrentHP = global.Player2MaxHPStat;}
+	if (global.Player3CurrentHP > global.Player3MaxHPStat){global.Player3CurrentHP = global.Player3MaxHPStat;}
+	if (global.Player4CurrentHP > global.Player4MaxHPStat){global.Player4CurrentHP = global.Player4MaxHPStat;}
+}

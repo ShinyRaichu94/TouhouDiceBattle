@@ -20,9 +20,9 @@ if (global.PlayerTurn < 5){
 			instance_create_layer(1920, 2624, "Characters", playerobjectcheck);
 		}
 	}
+	alarm_set(0, 10);
 }
 global.Board_PlayerMoving = false;
 global.Board_PlayerSpace = false;
 global.Board_PlayerSpaceEvent = "N/A";
 global.SpaceEventEnabled = false;
-alarm_set(0, 10);

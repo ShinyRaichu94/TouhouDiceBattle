@@ -1,24 +1,32 @@
 if(global.PlayerTurn == 1)
 {
 	with(Object_BoardPlayer1) {
-		instance_create_layer(x + 0, y + -128, "Instances_1", Object_MovementDice); 
+		if (global.Player1DoubleDice == true) {instance_create_layer(x + 0, y + -128, "Instances_1", Object_MovementDoubleDice1);}
+		else if (global.Player1TripleDice == true) {instance_create_layer(x + 0, y + -128, "Instances_1", Object_MovementTripleDice1);}
+		else {instance_create_layer(x + 0, y + -128, "Instances_1", Object_MovementDice);}
 	}
 }
 else if(global.PlayerTurn == 2)
 {
 	with(Object_BoardPlayer2) {
-		instance_create_layer(x + 0, y + -128, "Instances_1", Object_MovementDice); 
+		if (global.Player2DoubleDice == true) {instance_create_layer(x + 0, y + -128, "Instances_1", Object_MovementDoubleDice1);}
+		else if (global.Player2TripleDice == true) {instance_create_layer(x + 0, y + -128, "Instances_1", Object_MovementTripleDice1);}
+		else {instance_create_layer(x + 0, y + -128, "Instances_1", Object_MovementDice);}
 	}
 }
 else if(global.PlayerTurn == 3)
 {
 	with(Object_BoardPlayer3) {
-		instance_create_layer(x + 0, y + -128, "Instances_1", Object_MovementDice); 
+		if (global.Player3DoubleDice == true) {instance_create_layer(x + 0, y + -128, "Instances_1", Object_MovementDoubleDice1);}
+		else if (global.Player3TripleDice == true) {instance_create_layer(x + 0, y + -128, "Instances_1", Object_MovementTripleDice1);}
+		else {instance_create_layer(x + 0, y + -128, "Instances_1", Object_MovementDice);}
 	}
 }
 else if(global.PlayerTurn == 4)
 {
 	with(Object_BoardPlayer4) {
-		instance_create_layer(x + 0, y + -128, "Instances_1", Object_MovementDice); 
+		if (global.Player4DoubleDice == true) {instance_create_layer(x + 0, y + -128, "Instances_1", Object_MovementDoubleDice1);}
+		else if (global.Player4TripleDice == true) {instance_create_layer(x + 0, y + -128, "Instances_1", Object_MovementTripleDice1);}
+		else {instance_create_layer(x + 0, y + -128, "Instances_1", Object_MovementDice);}
 	}
 }
