@@ -1,0 +1,16 @@
+BattleMinigameCoinRouletteSlow = false;
+alarm_set(7,-1);
+var Player1BattleCoinBetSet = floor(global.Player1Coin * global.BattleMinigamePercentage);
+var Player2BattleCoinBetSet = floor(global.Player2Coin * global.BattleMinigamePercentage);
+var Player3BattleCoinBetSet = floor(global.Player3Coin * global.BattleMinigamePercentage);
+var Player4BattleCoinBetSet = floor(global.Player4Coin * global.BattleMinigamePercentage);
+global.Player1BattleCoinBet = (global.Player1Coin - Player1BattleCoinBetSet);
+global.Player2BattleCoinBet = (global.Player2Coin - Player2BattleCoinBetSet);
+global.Player3BattleCoinBet = (global.Player3Coin - Player3BattleCoinBetSet);
+global.Player4BattleCoinBet = (global.Player4Coin - Player4BattleCoinBetSet);
+global.Player1Coin -= global.Player1BattleCoinBet;
+global.Player2Coin -= global.Player2BattleCoinBet;
+global.Player3Coin -= global.Player3BattleCoinBet;
+global.Player4Coin -= global.Player4BattleCoinBet;
+global.BattleCoinTotal = (global.Player1BattleCoinBet + global.Player2BattleCoinBet + global.Player3BattleCoinBet + global.Player4BattleCoinBet);
+alarm_set(6, 60);

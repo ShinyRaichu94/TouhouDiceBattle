@@ -55,7 +55,8 @@ if(variable_messagetext == 3)
 	if (variable_nocoins == false){
 		if (variable_seijachoice == "Give Seija Money"){draw_text(view_xview + 147, view_yview + 630, string("Alright! Gimmee your coins!") + "");}
 		else if (variable_seijachoice == "Seija's Donation"){draw_text(view_xview + 147, view_yview + 630, string("Attention everyone! It's time for Seija's Donation! My donation box is ready!\nNow, I'll be taking your coins apiece for your donation!") + "");}
-		else if (variable_seijachoice == "Seija Divide"){draw_text(view_xview + 147, view_yview + 630, string("You know? All of you have an unfair amount of coins... But, don't worry! I'll take care of this by ") + "");}
+		else if (variable_seijachoice == "Seija Divide"){draw_text(view_xview + 147, view_yview + 630, string("You know? All of you have an unfair amount of coins... But, don't worry!\nI'll take care of this by taking all of your coins and divide them equally!") + "");}
+		else if (variable_seijachoice == "Seija Dice"){draw_text(view_xview + 147, view_yview + 630, string("Well well, lucky you! You've won a very special prize! The Seija Dice!") + "");}
 	}
 	else {draw_text(view_xview + 147, view_yview + 630, string("Alright... I'll give you 1,000 coins, but don't tell anyone about this!") + "");}
 }

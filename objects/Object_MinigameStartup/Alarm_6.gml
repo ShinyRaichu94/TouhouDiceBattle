@@ -1,0 +1,1 @@
+BattleMinigameMessageEnable = true;

@@ -7,5 +7,5 @@ var MikeCheck = "Mike"
 if (global.MinigameCoinsDoubled == true){var MikeCheck = "Kogasa";}
 
 randomize();
-global.CharacterEventSpaceCharacter = choose("Kogasa", MikeCheck);
-alarm_set(0,30)
+global.CharacterEventSpaceCharacter = choose("Kogasa", "Tojiko", MikeCheck);
+alarm_set(0,30);
