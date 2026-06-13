@@ -11,7 +11,10 @@
     "name":"Forest of Magic",
     "path":"folders/Objects/Spaces/Event Spaces/Forest of Magic.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"SpaceBase",
+    "path":"objects/SpaceBase/SpaceBase.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

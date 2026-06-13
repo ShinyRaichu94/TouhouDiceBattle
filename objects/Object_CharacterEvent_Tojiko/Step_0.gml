@@ -30,11 +30,13 @@ if(PlayerControl == true){
 		((PlayerController == "GP1") && gamepad_is_connected(1) && gamepad_button_check_pressed(1, gp_face1)) ||
 		((PlayerController == "GP2") && gamepad_is_connected(2) && gamepad_button_check_pressed(2, gp_face1)) ||
 		((PlayerController == "GP3") && gamepad_is_connected(3) && gamepad_button_check_pressed(3, gp_face1))){
-		variable_messagetext += 1;
+		if (variable_messagetext != 2){
+			variable_messagetext += 1;
+		}
 	}
 }
 
-if (variable_messagetext == 3){
+if (variable_messagetext == 4){
 	instance_destroy();
 	with(Object_SpaceEventTrigger) {
 		instance_destroy();

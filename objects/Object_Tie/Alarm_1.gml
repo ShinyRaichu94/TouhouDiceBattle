@@ -1,4 +1,6 @@
-/// @DnDAction : YoYo Games.Instances.Destroy_Instance
+/// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
-/// @DnDHash : 33509422
-instance_destroy();
+/// @DnDHash : 404AB34C
+/// @DnDArgument : "code" "variableself_startfade = false;$(13_10)image_alpha = 0;$(13_10)"
+variableself_startfade = false;
+image_alpha = 0;

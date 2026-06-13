@@ -13,7 +13,7 @@ if (global.PlayerTurn == 4){
 
 with(Player) {
 	if (global.CharacterEventSpaceCharacter == "Kogasa"){instance_create_layer(x + 64, y, "Instances_1", Object_CharacterEvent_Kogasa);}
-	else if (global.CharacterEventSpaceCharacter == "Tojiko"){instance_create_layer(x + 64, y, "Instances_1", Object_CharacterEvent_Tojiko);}
+	else if (global.CharacterEventSpaceCharacter == "Tojiko"){instance_create_layer(x + 64, y, "Instances_1", Object_CharacterEvent_Kogasa);}
 	else if (global.CharacterEventSpaceCharacter == "Mike"){instance_create_layer(x + 64, y, "Instances_1", Object_CharacterEvent_Mike);}
 }
 

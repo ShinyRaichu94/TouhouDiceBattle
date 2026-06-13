@@ -1,3 +1,18 @@
+/// @DnDAction : YoYo Games.Common.Execute_Script
+/// @DnDVersion : 1.1
+/// @DnDHash : 57579F31
+/// @DnDArgument : "script" "Script_StopMusic"
+/// @DnDSaveInfo : "script" "Script_StopMusic"
+script_execute(Script_StopMusic);
+
+/// @DnDAction : YoYo Games.Audio.Play_Audio
+/// @DnDVersion : 1.1
+/// @DnDHash : 58C7C861
+/// @DnDArgument : "soundid" "Music_MinigameVictory"
+/// @DnDArgument : "gain" "global.VolumeMusic"
+/// @DnDSaveInfo : "soundid" "Music_MinigameVictory"
+audio_play_sound(Music_MinigameVictory, 0, 0, global.VolumeMusic, undefined, 1.0);
+
 /// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1
 /// @DnDHash : 289ED076
@@ -289,5 +304,5 @@ if(global.DuelPlayer2MinigameWin == true){	/// @DnDAction : YoYo Games.Common.
 /// @DnDAction : YoYo Games.Instances.Set_Alarm
 /// @DnDVersion : 1
 /// @DnDHash : 0E62C0BA
-/// @DnDArgument : "steps" "300"
-alarm_set(0, 300);
+/// @DnDArgument : "steps" "540"
+alarm_set(0, 540);

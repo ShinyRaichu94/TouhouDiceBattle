@@ -17,5 +17,9 @@ with(Player) {
 	else if (distance_to_object(instance_nearest(x,y,Object_HealSpace)) <= 1){instance_create_layer(x + 0, y + -128, "Instances_1", Object_HealDice);}
 	else if (distance_to_object(instance_nearest(x,y,Object_SpecialEventSpace)) <= 1){instance_create_layer(x + 0, y + -128, "Instances_1", Object_CharacterEventChoiceTrigger);}
 	else if (distance_to_object(instance_nearest(x,y,Object_BoardEventSpace_FoM_MushroomFungus)) <= 1){instance_create_layer(x + 0, y + -128, "Instances_1", Object_BoardEvent_MushroomFungus);}
+	else if (distance_to_object(instance_nearest(x,y,Object_BoardEventSpace_FoM_BottomLeftMushroom)) <= 1){instance_create_layer(x + 0, y + -128, "Instances_1", Object_BoardEvent_BottomLeftMushroom);}
+	else if (distance_to_object(instance_nearest(x,y,Object_BoardEventSpace_FoM_TopLeftMushroom)) <= 1){instance_create_layer(x + 0, y + -128, "Instances_1", Object_BoardEvent_TopLeftMushroom);}
+	else if (distance_to_object(instance_nearest(x,y,Object_BoardEventSpace_FoM_TopRightMushroom)) <= 1){instance_create_layer(x + 0, y + -128, "Instances_1", Object_BoardEvent_TopRightMushroom);}
+	else if (distance_to_object(instance_nearest(x,y,Object_BoardEventSpace_FoM_BottomRightMushroom)) <= 1){instance_create_layer(x + 0, y + -128, "Instances_1", Object_BoardEvent_BottomRightMushroom);}
 	else {instance_create_layer(x + 0, y + -128, "Instances_1", Object_PlusCoinDice);}
 }
