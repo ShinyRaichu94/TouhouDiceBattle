@@ -58,7 +58,7 @@ if(PlayerControl == true){
 	}
 }
 else {
-	if (variableself_cpurolltrigger == false && global.MovementDice == 10) {
+	if (variableself_cpurolltrigger == false && global.MovementDice == variableself_cpunumberchoose) {
 		variableself_cpurolltrigger = true;
 		alarm_set(1, 10);
 	}

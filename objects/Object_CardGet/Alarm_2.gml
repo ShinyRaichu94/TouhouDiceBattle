@@ -1,0 +1,1 @@
+variable_messagetext += 1;

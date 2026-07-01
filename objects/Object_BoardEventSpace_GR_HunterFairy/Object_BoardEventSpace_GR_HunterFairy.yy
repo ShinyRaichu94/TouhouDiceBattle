@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"Object_BoardEventSpace_GR_Pipes",
+  "%Name":"Object_BoardEventSpace_GR_HunterFairy",
   "eventList":[],
   "managed":true,
-  "name":"Object_BoardEventSpace_GR_Pipes",
+  "name":"Object_BoardEventSpace_GR_HunterFairy",
   "overriddenProperties":[],
   "parent":{
     "name":"Genbu Ravine",

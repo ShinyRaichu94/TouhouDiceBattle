@@ -1,0 +1,1 @@
+variableself_showcardFade = true;
