@@ -1,0 +1,21 @@
+{
+  "$GMPath":"",
+  "%Name":"Path_FloatingCircleMovement",
+  "closed":true,
+  "kind":1,
+  "name":"Path_FloatingCircleMovement",
+  "parent":{
+    "name":"Paths",
+    "path":"folders/Paths.yy",
+  },
+  "points":[
+    {"speed":100.0,"x":0.0,"y":0.0,},
+    {"speed":100.0,"x":-10.0,"y":-10.0,},
+    {"speed":100.0,"x":0.0,"y":-20.0,},
+    {"speed":100.0,"x":10.0,"y":-10.0,},
+    {"speed":100.0,"x":0.0,"y":0.0,},
+  ],
+  "precision":4,
+  "resourceType":"GMPath",
+  "resourceVersion":"2.0",
+}

@@ -13,6 +13,13 @@ draw_set_valign(fa_middle);
 /// @DnDArgument : "alpha" "false"
 draw_set_colour($FF7CDB0F & $ffffff);draw_set_alpha(1);
 
+/// @DnDAction : YoYo Games.Drawing.Set_Font
+/// @DnDVersion : 1
+/// @DnDHash : 7C967461
+/// @DnDArgument : "font" "DisclaimerFont2"
+/// @DnDSaveInfo : "font" "DisclaimerFont2"
+draw_set_font(DisclaimerFont2);
+
 /// @DnDAction : YoYo Games.Drawing.Draw_Value
 /// @DnDVersion : 1
 /// @DnDHash : 1FFA8B5C

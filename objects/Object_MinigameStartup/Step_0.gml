@@ -25,25 +25,25 @@ if (MinigameChoose == false){
 		if (global.BoardMinigameSet == "Easy"){
 			randomize();
 			//global.MinigameSelect = choose("Color Coded Catcher");
-			global.MinigameSelect = choose("Spring Fever");
+			global.MinigameSelect = choose("Fairy Fame");
 		}
 		else if (global.BoardMinigameSet == "Action"){
 			randomize();
-			global.MinigameSelect = choose("Spring Fever");
+			global.MinigameSelect = choose("Fairy Fame");
 		}
 		else if (global.BoardMinigameSet == "Hard"){
 			randomize();
-			//global.MinigameSelect = choose("A Card in Mind", "Color Coded Catcher", "Spring Fever");
-			global.MinigameSelect = choose("Spring Fever");
+			//global.MinigameSelect = choose("A Card in Mind", "Color Coded Catcher", "Fairy Fame", "Spring Fever");
+			global.MinigameSelect = choose("Fairy Fame");
 		}
 		else if (global.BoardMinigameSet == "Crazy"){
 			randomize();
-			global.MinigameSelect = choose("Spring Fever");
+			global.MinigameSelect = choose("Fairy Fame");
 		}
 		else {
 			randomize();
-			//global.MinigameSelect = choose("A Card in Mind", "Color Coded Catcher", "Spring Fever");
-			global.MinigameSelect = choose("Spring Fever");
+			//global.MinigameSelect = choose("A Card in Mind", "Color Coded Catcher", "Fairy Fame", "Spring Fever");
+			global.MinigameSelect = choose("Fairy Fame");
 		}
 	}
 	else if (MinigameType == "2v2"){

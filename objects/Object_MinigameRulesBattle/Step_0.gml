@@ -20,6 +20,11 @@ if ((keyboard_check_pressed(vk_enter) && PlayerController = "Keys") ||
 (gamepad_is_connected(2) && gamepad_button_check_pressed(2, gp_start) && PlayerController = "GP2") ||
 (gamepad_is_connected(3) && gamepad_button_check_pressed(3, gp_start) && PlayerController = "GP3"))
 {
+	if(global.MinigameSelect == "Fairy Fame")
+	{
+		room_goto(Room_BM_FairyFame);
+	}
+	
 	if(global.MinigameSelect == "Spring Fever")
 	{
 		room_goto(Room_BM_SpringFever);
