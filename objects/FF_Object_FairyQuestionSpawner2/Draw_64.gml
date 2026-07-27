@@ -4,7 +4,7 @@ if (RoundIntro == true){
 	draw_set_halign(fa_center);
 	draw_set_valign(fa_middle);
 	draw_set_font(MinigameTitleFont);
-	draw_text(view_xview + 683, view_yview + 256, string("Round 1"));
+	draw_text(view_xview + 683, view_yview + 256, string("Round 2"));
 	draw_set_font(MessageFont);
 	draw_text(view_xview + 683, view_yview + 290, string("Watch and memorize the fairies."));
 }

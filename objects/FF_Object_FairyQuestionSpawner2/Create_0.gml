@@ -1,15 +1,16 @@
+global.MinigameTimer = 10;
 randomize();
 global.FF_Question = choose("Which of these fairies did you see more of?", "Which of these fairies did you see less of?");
 randomize();
-var Fairy1 = choose("BlueFairy", "RedFairy", "GreenFairy", "YellowFairy", "PinkFairy");
+var Fairy1 = choose("BlueFairy", "RedFairy", "GreenFairy", "YellowFairy", "PinkFairy", "HunterFairy", "BlueChiefFairy", "RedChiefFairy");
 while(true){
 	randomize();
-	var Fairy2 = choose("BlueFairy", "RedFairy", "GreenFairy", "YellowFairy", "PinkFairy");
+	var Fairy2 = choose("BlueFairy", "RedFairy", "GreenFairy", "YellowFairy", "PinkFairy", "HunterFairy", "BlueChiefFairy", "RedChiefFairy");
 	if (Fairy2 != Fairy1){break;}
 }
 while(true){
 	randomize();
-	var Fairy3 = choose("BlueFairy", "RedFairy", "GreenFairy", "YellowFairy", "PinkFairy");
+	var Fairy3 = choose("BlueFairy", "RedFairy", "GreenFairy", "YellowFairy", "PinkFairy", "HunterFairy", "BlueChiefFairy", "RedChiefFairy");
 	if (Fairy3 != Fairy1 && Fairy3 != Fairy2){break;}
 }
 
@@ -21,11 +22,11 @@ if global.FF_Question == "Which of these fairies did you see more of?"{
 	WrongAnswer2 = asset_get_index("FF_Object_"+string(Fairy3));
 	WrongAnswer2Sprite = asset_get_index("FF_Sprite_"+string(Fairy3));
 	randomize();
-	Fairy1Number = floor(random_range(8, 12 + 1));
+	Fairy1Number = floor(random_range(15, 20 + 1));
 	randomize();
-	Fairy2Number = (Fairy1Number - floor(random_range(1, 6 + 1)));
+	Fairy2Number = (Fairy1Number - floor(random_range(1, 5 + 1)));
 	randomize();
-	Fairy3Number = (Fairy2Number - floor(random_range(1, 12 + 1)));
+	Fairy3Number = (Fairy2Number - floor(random_range(1, 5 + 1)));
 	if (Fairy3Number < 1){Fairy3Number = 1;}
 	while(true){
 		randomize();
@@ -58,12 +59,12 @@ else if global.FF_Question == "Which of these fairies did you see less of?"{
 	WrongAnswer2 = asset_get_index("FF_Object_"+string(Fairy3));
 	WrongAnswer2Sprite = asset_get_index("FF_Sprite_"+string(Fairy3));
 	randomize();
-	Fairy1Number = floor(random_range(1, 5 + 1));
+	Fairy3Number = floor(random_range(15, 20 + 1));
 	randomize();
-	Fairy2Number = (Fairy1Number + floor(random_range(1, 4 + 1)));
+	Fairy2Number = (Fairy3Number - floor(random_range(1, 5 + 1)));
 	randomize();
-	Fairy3Number = (Fairy2Number + floor(random_range(1, 12 + 1)));
-	if (Fairy3Number > 12){Fairy3Number = 12;}
+	Fairy1Number = (Fairy2Number - floor(random_range(1, 5 + 1)));
+	if (Fairy3Number < 1){Fairy3Number = 1;}
 	while(true){
 		randomize();
 		FairyLayerSpawn = choose("Fairies", "Fairies_1", "Fairies_2");
@@ -87,4 +88,5 @@ else if global.FF_Question == "Which of these fairies did you see less of?"{
 	}
 }
 
-alarm_set(0,240);
+alarm_set(1,120);
+RoundIntro = true;
