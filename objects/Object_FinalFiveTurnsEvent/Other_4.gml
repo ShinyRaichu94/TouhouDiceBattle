@@ -35,7 +35,6 @@ if (player1place <= 3 && player1placetaken == false){Var_Place3 = 1; player1plac
 else if (player2place <= 3 && player2placetaken == false){Var_Place3 = 2; player2placetaken = true;}
 else if (player3place <= 3 && player3placetaken == false){Var_Place3 = 3; player3placetaken = true;}
 else if (player4place <= 3 && player4placetaken == false){Var_Place3 = 4; player4placetaken = true;}
-else {Var_Place3 = 3; player3placetaken = true;}
 
 if (player1place <= 4 && player1placetaken == false){Var_Place4 = 1; player1placetaken = true;}
 else if (player2place <= 4 && player2placetaken == false){Var_Place4 = 2; player2placetaken = true;}

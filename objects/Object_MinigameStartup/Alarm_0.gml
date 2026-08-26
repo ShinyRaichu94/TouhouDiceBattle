@@ -21,7 +21,7 @@ if (global.Player3Color == "Blue"){BluePlayersCount += 1;}
 if (global.Player4Color == "Blue"){BluePlayersCount += 1;}
 
 if (BluePlayersCount == 0 || BluePlayersCount == 4){MinigameType = "4-Player";}
-else if (BluePlayersCount == 1 || BluePlayersCount == 3){MinigameType = "1v3";}
+else if (BluePlayersCount == 1 || BluePlayersCount == 3){MinigameType = "4-Player";}//MinigameType = "1v3";}
 else if (BluePlayersCount == 2){MinigameType = "2v2";}
 
 if (MinigameType = "2v2"){

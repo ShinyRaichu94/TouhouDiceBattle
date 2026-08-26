@@ -15,6 +15,7 @@ with(Player) {
 	if (global.CharacterEventSpaceCharacter == "Kogasa"){instance_create_layer(x + 64, y, "Instances_1", Object_CharacterEvent_Kogasa);}
 	else if (global.CharacterEventSpaceCharacter == "Tojiko"){instance_create_layer(x + 64, y, "Instances_1", Object_CharacterEvent_Kogasa);}
 	else if (global.CharacterEventSpaceCharacter == "Mike"){instance_create_layer(x + 64, y, "Instances_1", Object_CharacterEvent_Mike);}
+	else if (global.CharacterEventSpaceCharacter == "Misumaru"){instance_create_layer(x + 64, y, "Instances_1", Object_CharacterEvent_Misumaru);}
 }
 
 instance_destroy();

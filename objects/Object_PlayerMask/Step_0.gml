@@ -14,7 +14,7 @@ if (PlayerNumber == global.PlayerTurn) {
 		(distance_to_point(3200, 1024) <=1 && global.BoardFoM_GoldenYinYangSpaceChoose == 3) ||
 		(distance_to_point(2624, 2784) <=1 && global.BoardFoM_GoldenYinYangSpaceChoose == 4) ||
 		(distance_to_point(1600, 2112) <=1 && global.BoardFoM_GoldenYinYangSpaceChoose == 5) ||
-		(distance_to_point(2400, 1344) <=1 && global.BoardFoM_GoldenYinYangSpaceChoose == 6))){
+		(distance_to_point(2400, 1344) <=1 && global.BoardFoM_GoldenYinYangSpaceChoose == 6)) && global.Board_PlayerSpaceStep == false){
 			GoldenYinYangEvent = true;
 			if !instance_exists(Object_GoldenYinYangEvent){instance_create_layer(x, y, "Instances_1", Object_GoldenYinYangEvent);}
 		}
@@ -192,4 +192,37 @@ if (PlayerNumber == global.PlayerTurn) {
 			}
 		}
 	}
-}/**/
+}
+
+if (PlayerNumber == 1){
+	if global.PlayerTurn == 1{SpritePos_X = 0; SpritePos_Y = 0;}
+	else{SpritePos_X = -20; SpritePos_Y = -20;}
+}
+if (PlayerNumber == 2){
+	if global.PlayerTurn == 2{SpritePos_X = 0; SpritePos_Y = 0;}
+	else{SpritePos_X = 20; SpritePos_Y = -20;}
+}
+if (PlayerNumber == 3){
+	if global.PlayerTurn == 3{SpritePos_X = 0; SpritePos_Y = 0;}
+	else{SpritePos_X = -20; SpritePos_Y = 20;}
+}
+if (PlayerNumber == 4){
+	if global.PlayerTurn >= 4{SpritePos_X = 0; SpritePos_Y = 0;}
+	else{SpritePos_X = 20; SpritePos_Y = 20;}
+}
+
+var PlayerDepth = 0;
+if instance_exists(Object_BoardPlayer1) && (PlayerNumber != 1){
+	if y < (Object_BoardPlayer1.y + Object_BoardPlayer1.SpritePos_Y) {PlayerDepth += 1;}
+}
+if instance_exists(Object_BoardPlayer2) && (PlayerNumber != 2){
+	if y < (Object_BoardPlayer2.y + Object_BoardPlayer2.SpritePos_Y) {PlayerDepth += 1;}
+}
+if instance_exists(Object_BoardPlayer3) && (PlayerNumber != 3){
+	if y < (Object_BoardPlayer3.y + Object_BoardPlayer3.SpritePos_Y) {PlayerDepth += 1;}
+}
+if instance_exists(Object_BoardPlayer4) && (PlayerNumber != 4){
+	if y < (Object_BoardPlayer4.y + Object_BoardPlayer4.SpritePos_Y) {PlayerDepth += 1;}
+}
+depth = (2600 + PlayerDepth);
+/**/

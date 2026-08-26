@@ -1,6 +1,8 @@
 if (FinalFiveTurnsEventRandomize == true){
 	randomize();
-	global.FinalFiveTurnsEvent = choose("LastPlaceGets4000Coins", "MinusSpaceBecomeSeijaSpace", "DoubleCoins");
+	if global.RoomCheck == "Room_Board_Forest_of_Magic"{var IsBoardWithYinYangSpace = "HalfYinYangPrice";}
+	else{var IsBoardWithYinYangSpace = "LastPlaceGets4000Coins";}
+	global.FinalFiveTurnsEvent = choose("LastPlaceGets4000Coins", "MinusSpaceBecomeSeijaSpace", "DoubleCoins", IsBoardWithYinYangSpace);
 }
 
 if (FinalFiveMessage <= 6){

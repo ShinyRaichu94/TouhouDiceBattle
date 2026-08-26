@@ -6,6 +6,9 @@ else if (global.PlayerTurn = 4){global.Player4EventSpaceBonus += 1;}
 var MikeCheck = "Mike"
 if (global.MinigameCoinsDoubled == true){var MikeCheck = "Kogasa";}
 
+var MisumaruCheck = "Misumaru"
+if (global.YinYangSpaceDoubled == true || room != Room_Board_Forest_of_Magic){var MisumaruCheck = "Kogasa";}
+
 randomize();
-global.CharacterEventSpaceCharacter = choose("Kogasa", "Tojiko", MikeCheck);
+global.CharacterEventSpaceCharacter = choose("Kogasa", MikeCheck, MisumaruCheck);
 alarm_set(0,30);

@@ -32,6 +32,7 @@
     {"$GMObjectProperty":"v2","%Name":"PositionX","filters":[],"listItems":[],"multiselect":false,"name":"PositionX","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0.0","varType":0,},
     {"$GMObjectProperty":"v2","%Name":"PositionY","filters":[],"listItems":[],"multiselect":false,"name":"PositionY","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0.0","varType":0,},
     {"$GMObjectProperty":"v2","%Name":"Player","filters":[],"listItems":[],"multiselect":false,"name":"Player","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"\"Null\"","varType":2,},
+    {"$GMObjectProperty":"v2","%Name":"Depth","filters":[],"listItems":[],"multiselect":false,"name":"Depth","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0.0","varType":0,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

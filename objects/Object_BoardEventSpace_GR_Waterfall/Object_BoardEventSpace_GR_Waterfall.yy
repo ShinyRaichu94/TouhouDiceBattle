@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"Object_BoardEventSpace_GR_ButtonChoice",
+  "%Name":"Object_BoardEventSpace_GR_Waterfall",
   "eventList":[],
   "managed":true,
-  "name":"Object_BoardEventSpace_GR_ButtonChoice",
+  "name":"Object_BoardEventSpace_GR_Waterfall",
   "overriddenProperties":[],
   "parent":{
     "name":"Genbu Ravine",

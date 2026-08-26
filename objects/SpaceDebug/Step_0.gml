@@ -11,4 +11,5 @@ if (Player != "Null"){
 	PathPosition = Player.path_position;
 	PositionX = Player.x;
 	PositionY = Player.y;
+	Depth = Player.depth;
 }

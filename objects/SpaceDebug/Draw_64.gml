@@ -11,5 +11,6 @@ if (global.TurnHUDEnabled == true){
 		draw_text(view_xview + 5, view_yview + 650, string("PathPosition: ") + string(PathPosition) + "");
 		draw_text(view_xview + 5, view_yview + 670, string("PositionX: ") + string(PositionX) + "");
 		draw_text(view_xview + 5, view_yview + 690, string("PositionY: ") + string(PositionY) + "");
+		draw_text(view_xview + 5, view_yview + 710, string("Depth: ") + string(Depth) + "");
 	}
 }
