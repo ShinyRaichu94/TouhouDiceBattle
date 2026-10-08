@@ -20,24 +20,36 @@ if (PlayerNumber == global.PlayerTurn) {
 		}
 		else if ((distance_to_object(instance_nearest(x,y,SpaceBase)) <= 1 && GoldenYinYangEvent == false)/*place_meeting((x || x-1 || x+1), (y || y-1 || y+1), SpaceBase)*/ && global.Board_PlayerSpaceStep == false){
 			global.MovementDiceChooseFinal -= 1;
+			if (global.PlayerTurn == 1){global.Player1WanderingBonus += 1;}
+			else if (global.PlayerTurn == 2){global.Player2WanderingBonus += 1;}
+			else if (global.PlayerTurn == 3){global.Player3WanderingBonus += 1;}
+			else if (global.PlayerTurn == 4){global.Player4WanderingBonus += 1;}
 			if (global.MovementDiceChooseFinal == 0) {
 				game_set_speed(60, gamespeed_fps);
 				if (global.PlayerTurn == 1){
+					if global.Player1PowerItem == true{global.Player1PowerItem = false;}
+					if global.Player1BigPowerItem == true{global.Player1BigPowerItem = false;}
 					if (distance_to_object(instance_nearest(x,y,Object_PlusSpace)) <= 1 || distance_to_object(instance_nearest(x,y,Object_PlusSpace_GoldenYinYang)) <= 1 || distance_to_object(instance_nearest(x,y,Object_CardSpace)) <= 1 || distance_to_object(instance_nearest(x,y,Object_HealSpace)) <= 1) {global.Player1Color = "Blue";}
 					else if (distance_to_object(instance_nearest(x,y,Object_MinusSpace)) <= 1 || distance_to_object(instance_nearest(x,y,Object_BattleSpace)) <= 1 || distance_to_object(instance_nearest(x,y,Object_SeijaSpace)) <= 1) {global.Player1Color = "Red";}
 					else {global.Player1Color = "Purple";}
 				}
 				else if (global.PlayerTurn == 2){
+					if global.Player2PowerItem == true{global.Player2PowerItem = false;}
+					if global.Player2BigPowerItem == true{global.Player2BigPowerItem = false;}
 					if (distance_to_object(instance_nearest(x,y,Object_PlusSpace)) <= 1 || distance_to_object(instance_nearest(x,y,Object_PlusSpace_GoldenYinYang)) <= 1 || distance_to_object(instance_nearest(x,y,Object_CardSpace)) <= 1 || distance_to_object(instance_nearest(x,y,Object_HealSpace)) <= 1) {global.Player2Color = "Blue";}
 					else if (distance_to_object(instance_nearest(x,y,Object_MinusSpace)) <= 1 || distance_to_object(instance_nearest(x,y,Object_BattleSpace)) <= 1 || distance_to_object(instance_nearest(x,y,Object_SeijaSpace)) <= 1) {global.Player2Color = "Red";}
 					else {global.Player2Color = "Purple";}
 				}
 				else if (global.PlayerTurn == 3){
+					if global.Player3PowerItem == true{global.Player3PowerItem = false;}
+					if global.Player3BigPowerItem == true{global.Player3BigPowerItem = false;}
 					if (distance_to_object(instance_nearest(x,y,Object_PlusSpace)) <= 1 || distance_to_object(instance_nearest(x,y,Object_PlusSpace_GoldenYinYang)) <= 1 || distance_to_object(instance_nearest(x,y,Object_CardSpace)) <= 1 || distance_to_object(instance_nearest(x,y,Object_HealSpace)) <= 1) {global.Player3Color = "Blue";}
 					else if (distance_to_object(instance_nearest(x,y,Object_MinusSpace)) <= 1 || distance_to_object(instance_nearest(x,y,Object_BattleSpace)) <= 1 || distance_to_object(instance_nearest(x,y,Object_SeijaSpace)) <= 1) {global.Player3Color = "Red";}
 					else {global.Player3Color = "Purple";}
 				}
 				else if (global.PlayerTurn == 4){
+					if global.Player4PowerItem == true{global.Player4PowerItem = false;}
+					if global.Player4BigPowerItem == true{global.Player4BigPowerItem = false;}
 					if (distance_to_object(instance_nearest(x,y,Object_PlusSpace)) <= 1 || distance_to_object(instance_nearest(x,y,Object_PlusSpace_GoldenYinYang)) <= 1 || distance_to_object(instance_nearest(x,y,Object_CardSpace)) <= 1 || distance_to_object(instance_nearest(x,y,Object_HealSpace)) <= 1) {global.Player4Color = "Blue";}
 					else if (distance_to_object(instance_nearest(x,y,Object_MinusSpace)) <= 1 || distance_to_object(instance_nearest(x,y,Object_BattleSpace)) <= 1 || distance_to_object(instance_nearest(x,y,Object_SeijaSpace)) <= 1) {global.Player4Color = "Red";}
 					else {global.Player4Color = "Purple";}

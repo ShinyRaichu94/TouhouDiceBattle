@@ -1,3 +1,6 @@
+if partSys != "Null"{part_system_destroy(partSys);}
+if partSys2 != "Null"{part_system_destroy(partSys2);}
+if partSys3 != "Null"{part_system_destroy(partSys3);}
 global.PlayerTurn += 1;
 
 if (global.PlayerTurn == 2) {var playerobjectcheck = Object_BoardPlayer2;}

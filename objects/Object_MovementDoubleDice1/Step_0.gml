@@ -35,6 +35,8 @@ if(PlayerControl == true){
 			if (global.MovementDoubleDiceChoose1 == false){
 				variableself_dicestop = true;
 				global.MovementDoubleDiceChoose1 = true;
+				var partSys = part_system_create_layer("Instances_1", 0, Particle_DiceStop);
+				part_system_position(partSys,x,y);
 				alarm_set(2, 30);
 			}
 		}
@@ -57,6 +59,8 @@ if(PlayerControl == true){
 			if (global.MovementDoubleDiceChoose1 == false){
 				variableself_dicestop = true;
 				global.MovementDoubleDiceChoose1 = true;
+				var partSys = part_system_create_layer("Instances_1", 0, Particle_DiceStop);
+				part_system_position(partSys,x,y);
 				alarm_set(2, 30);
 			}
 		}

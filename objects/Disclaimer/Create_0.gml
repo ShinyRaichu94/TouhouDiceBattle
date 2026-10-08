@@ -129,9 +129,9 @@ else{	/// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 494BCAD6
-/// @DnDArgument : "code" "if (!audio_is_playing(Music_MinigameThinking)){$(13_10)	BGM_sound = audio_play_sound(Music_MinigameThinking, 0, 1, 1.0, undefined, 1.0);$(13_10)}"
-if (!audio_is_playing(Music_MinigameThinking)){
-	BGM_sound = audio_play_sound(Music_MinigameThinking, 0, 1, 1.0, undefined, 1.0);
+/// @DnDArgument : "code" "if (!audio_is_playing(Music_MinigameResults)){$(13_10)	BGM_sound = audio_play_sound(Music_MinigameResults, 0, 1, 1.0, undefined, 1.0);$(13_10)}"
+if (!audio_is_playing(Music_MinigameResults)){
+	BGM_sound = audio_play_sound(Music_MinigameResults, 0, 1, 1.0, undefined, 1.0);
 }
 
 /// @DnDAction : YoYo Games.Common.Execute_Script

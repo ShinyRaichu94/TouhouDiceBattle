@@ -14,20 +14,20 @@ if (MessageOn == true){
 			else if (global.PlayerTurn = 2){
 				if global.YinYangSpaceDoubled == true{global.Player2YinYang += 2; global.YinYangSpaceDoubled = false;}
 				else{global.Player2YinYang += 1;}
-				if global.FinalFiveTurnsEvent == "HalfYinYangPrice"{global.Player1Coin -= 500;}
-				else{global.Player1Coin -= 1000;}
+				if global.FinalFiveTurnsEvent == "HalfYinYangPrice"{global.Player2Coin -= 500;}
+				else{global.Player2Coin -= 1000;}
 			}
 			else if (global.PlayerTurn = 3){
 				if global.YinYangSpaceDoubled == true{global.Player3YinYang += 2; global.YinYangSpaceDoubled = false;}
 				else{global.Player3YinYang += 1;}
-				if global.FinalFiveTurnsEvent == "HalfYinYangPrice"{global.Player1Coin -= 500;}
-				else{global.Player1Coin -= 1000;}
+				if global.FinalFiveTurnsEvent == "HalfYinYangPrice"{global.Player3Coin -= 500;}
+				else{global.Player3Coin -= 1000;}
 			}
 			else if (global.PlayerTurn = 4){
 				if global.YinYangSpaceDoubled == true{global.Player4YinYang += 2; global.YinYangSpaceDoubled = false;}
 				else{global.Player4YinYang += 1;}
-				if global.FinalFiveTurnsEvent == "HalfYinYangPrice"{global.Player1Coin -= 500;}
-				else{global.Player1Coin -= 1000;}
+				if global.FinalFiveTurnsEvent == "HalfYinYangPrice"{global.Player4Coin -= 500;}
+				else{global.Player4Coin -= 1000;}
 			}
 			
 			if (global.RoomCheck == "Room_Board_Forest_of_Magic"){

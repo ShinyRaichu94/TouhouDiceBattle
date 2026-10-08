@@ -72,6 +72,15 @@ if(global.MinigameSelect == "Fairy Fame")
 	draw_text(683, 600, string("Use the Z, X, C, and V keys on your keyboard or the top, bottom, left, and right buttons on your controller to select your answer.") + "");
 }
 
+if(global.MinigameSelect == "Going with the Flow")
+{
+	draw_text(683, 460, string("Build a pipe from your colored faucet to your drain by placing smaller pipe pieces. The player with the most amount points at the end wins.") + "");
+
+	draw_text(683, 480, string("Each pipe piece is worth 1 point while the golden ones are worth 3 points. If the water from your faucet didn't reach your drain, you're out.") + "");
+
+	draw_text(683, 600, string("Use the arrow keys on your keyboard or the left joystick on your controller to move.\nUse the Z keys on your keyboard or the bottom button on your controller to pick up/place the pipe.") + "");
+}
+
 if(global.MinigameSelect == "Spring Fever")
 {
 	draw_text(683, 460, string("Dodge Lily White's danmaku while flying in the air. Last one standing wins.") + "");

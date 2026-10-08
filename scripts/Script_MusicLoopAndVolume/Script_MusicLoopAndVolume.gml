@@ -17,4 +17,11 @@ function Script_MusicLoopAndVolume(){
 		audio_sound_loop_end(Music_MinigameThinking, 78.99);
 		audio_sound_gain(Music_MinigameThinking, global.VolumeMusic, 0);
 	}
+	
+	// Other BGM
+	if audio_is_playing(Music_MinigameResults){
+		audio_sound_loop_start(Music_MinigameResults, 12);
+		audio_sound_loop_end(Music_MinigameResults, 44);
+		audio_sound_gain(Music_MinigameResults, global.VolumeMusic, 0);
+	}
 }

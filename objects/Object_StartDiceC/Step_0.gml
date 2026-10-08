@@ -62,6 +62,10 @@ if (global.PlayerC_Control == true)
 	((global.PlayerC_Controller == "GP2") && gamepad_is_connected(2) && gamepad_button_check_pressed(2, gp_face1)) ||
 	((global.PlayerC_Controller == "GP3") && gamepad_is_connected(3) && gamepad_button_check_pressed(3, gp_face1)))
 	{
+		if variableself_dicestop == false{
+			var partSys = part_system_create_layer("Instances_1", 0, Particle_DiceStop);
+			part_system_position(partSys,x,y);
+		}
 		variableself_dicestop = true;
 		global.PlayerC_StartDiceChoose = true;
 	}

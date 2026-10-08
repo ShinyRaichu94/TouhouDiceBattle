@@ -36,6 +36,9 @@ if(global.PlayerHUDEnable == true)
 	draw_set_font(MessageFont);
 	draw_text(Player1HUDLocationX - 0, Player1HUDLocationY - 20, string("x") + string(global.Player1YinYang));
 	draw_text(Player1HUDLocationX - 0, Player1HUDLocationY + 18, string("x") + string(global.Player1Coin));
+	if global.Player1LoseTurn == true {draw_sprite(Sprite_Status_LoseTurn, 0, Player1HUDLocationX - 129, Player1HUDLocationY - 41);}
+	else if global.Player1PowerItem == true {draw_sprite(Sprite_Status_MovementPlus3, 0, Player1HUDLocationX - 129, Player1HUDLocationY - 41);}
+	else if global.Player1BigPowerItem == true {draw_sprite(Sprite_Status_MovementPlus5, 0, Player1HUDLocationX - 129, Player1HUDLocationY - 41);}
 	
 	// Player 2 Hud
 	var Player2MaxHealth = global.Player2MaxHPStat;
@@ -73,6 +76,9 @@ if(global.PlayerHUDEnable == true)
 	draw_set_font(MessageFont);
 	draw_text(Player2HUDLocationX - 0, Player2HUDLocationY - 20, string("x") + string(global.Player2YinYang));
 	draw_text(Player2HUDLocationX - 0, Player2HUDLocationY + 18, string("x") + string(global.Player2Coin));
+	if global.Player2LoseTurn == true {draw_sprite(Sprite_Status_LoseTurn, 0, Player2HUDLocationX - 129, Player2HUDLocationY - 41);}
+	else if global.Player2PowerItem == true {draw_sprite(Sprite_Status_MovementPlus3, 0, Player2HUDLocationX - 129, Player2HUDLocationY - 41);}
+	else if global.Player2BigPowerItem == true {draw_sprite(Sprite_Status_MovementPlus5, 0, Player2HUDLocationX - 129, Player2HUDLocationY - 41);}
 	
 	// Player 3 Hud
 	var Player3MaxHealth = global.Player3MaxHPStat;
@@ -110,6 +116,9 @@ if(global.PlayerHUDEnable == true)
 	draw_set_font(MessageFont);
 	draw_text(Player3HUDLocationX - 0, Player3HUDLocationY - 20, string("x") + string(global.Player3YinYang));
 	draw_text(Player3HUDLocationX - 0, Player3HUDLocationY + 18, string("x") + string(global.Player3Coin));
+	if global.Player3LoseTurn == true {draw_sprite(Sprite_Status_LoseTurn, 0, Player3HUDLocationX - 129, Player3HUDLocationY - 41);}
+	else if global.Player3PowerItem == true {draw_sprite(Sprite_Status_MovementPlus3, 0, Player3HUDLocationX - 129, Player3HUDLocationY - 41);}
+	else if global.Player3BigPowerItem == true {draw_sprite(Sprite_Status_MovementPlus5, 0, Player3HUDLocationX - 129, Player3HUDLocationY - 41);}
 	
 	// Player 4 Hud
 	var Player4MaxHealth = global.Player4MaxHPStat;
@@ -147,6 +156,9 @@ if(global.PlayerHUDEnable == true)
 	draw_set_font(MessageFont);
 	draw_text(Player4HUDLocationX - 0, Player4HUDLocationY - 20, string("x") + string(global.Player4YinYang));
 	draw_text(Player4HUDLocationX - 0, Player4HUDLocationY + 18, string("x") + string(global.Player4Coin));
+	if global.Player4LoseTurn == true {draw_sprite(Sprite_Status_LoseTurn, 0, Player4HUDLocationX - 129, Player4HUDLocationY - 41);}
+	else if global.Player4PowerItem == true {draw_sprite(Sprite_Status_MovementPlus3, 0, Player4HUDLocationX - 129, Player4HUDLocationY - 41);}
+	else if global.Player4BigPowerItem == true {draw_sprite(Sprite_Status_MovementPlus5, 0, Player4HUDLocationX - 129, Player4HUDLocationY - 41);}
 }
 
 if(global.TurnHUDEnabled == true){

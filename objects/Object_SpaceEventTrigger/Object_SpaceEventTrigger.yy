@@ -33,6 +33,9 @@
   "physicsStartAwake":true,
   "properties":[
     {"$GMObjectProperty":"v2","%Name":"variable_spaceevent","filters":[],"listItems":[],"multiselect":false,"name":"variable_spaceevent","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"\"Null\"","varType":2,},
+    {"$GMObjectProperty":"v2","%Name":"partSys","filters":[],"listItems":[],"multiselect":false,"name":"partSys","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"\"Null\"","varType":2,},
+    {"$GMObjectProperty":"v2","%Name":"partSys2","filters":[],"listItems":[],"multiselect":false,"name":"partSys2","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"\"Null\"","varType":2,},
+    {"$GMObjectProperty":"v2","%Name":"partSys3","filters":[],"listItems":[],"multiselect":false,"name":"partSys3","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"\"Null\"","varType":2,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

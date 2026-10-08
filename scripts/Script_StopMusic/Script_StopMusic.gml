@@ -11,4 +11,9 @@ function Script_StopMusic(){
 	if audio_is_playing(Music_MinigameThinking){
 		BGM_sound = audio_stop_sound(Music_MinigameThinking);
 	}
+	
+	// Other BGM
+	if audio_is_playing(Music_MinigameResults){
+		BGM_sound = audio_stop_sound(Music_MinigameResults);
+	}
 }
